@@ -1,6 +1,6 @@
 locale: "en-US"
-title: "GDCC Dataverse Containerization Working Group"
-description: "The Dataverse Containerization Working Groups aims to run the Dataverse software within containers, useful for many different scenarios from development to production."
+title: "Containerization Working Group"
+description: "The Dataverse Containerization Working Group aims to run the Dataverse software within containers, useful for many different scenarios from development to production."
 github: [metadata]
 plugins:
     - jekyll-seo-tag

@@ -1,5 +1,5 @@
 ---
-title: Main
+title: Home
 ---
 
 ## Members
@@ -9,38 +9,39 @@ title: Main
 
 ## Motivation and goals
 
-The DC group aims to support running [Dataverse software](https://dataverse.org) within [containers](https://kubernetes.io/docs/concepts/containers/).
+The Containerization Working Group aims to support running the [Dataverse software](https://dataverse.org) within [containers](https://kubernetes.io/docs/concepts/containers/).
 Containers may be used in very different contexts such as development, testing, staging and production.
 They also are a way to run the Dataverse software and its dependencies and integrations in enclosed units on different platforms of operating systems and/or hardware.
-This working groups aims to include as many perspectives and use cases and make sure the Dataverse community needs are covered.
+This working group aims to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
 ## Projects and discussion topics
 
-<center>T.B.A.</center>
+See the [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit), meeting notes, and recordings.
+
+## Working group meetings
+
+- [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC) kickoff, during the [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#), [recording](https://harvard.zoom.us/rec/share/qb3gd3pboooRa9UHyLyIvPfxVgoahbGWFaxLdJDO2VD-MGMqWnZIsJjc3Rxao6Wu.-Y-CiwvgRwVj8v6c)).
+- [2023-03-23, 14:00 UTC](https://time.is/compare/1400_23_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1UmKajGpOH8tkvyEbgIYvHDKZBAMfdvCp8AZC0ZEEtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kviiT4GO2zruomf0T-QHCWqDksK6jT525bPrENNGWf01MhLtZOS0mU3b6Gw-_usp.CnoqlfsFqvOhXEyY))
+- [2023-03-30, 14:00 UTC](https://time.is/compare/1400_30_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Z1PUOp19zJVEGNcFsV7tqPErWQnkVV6qkDo5ZQUHMVM/edit?usp=sharing), recording)
+
+## Get in touch
+
+We welcome anyone who wants to join our meetings and discussions. Please join us on [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/) (preferred) or [chat.dataverse.org](https://chat.dataverse.org).
 
 ## References
 
 Outputs:
 
 - [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit)
-- [Dataverse Container Guide](https://guides.dataverse.org/en/latest/container/index.html)
+- [Dataverse Container Guide](https://guides.dataverse.org/en/latest/container/index.html) ([pre-release preview](https://preview.guides.gdcc.io/en/develop/container/index.html))
 
 Existing prior containerization efforts:
 - Dataverse on K8s: [gdcc/dataverse-kubernetes](https://github.com/gdcc/dataverse-kubernetes), [k8s-docs.gdcc.io](https://k8s-docs.gdcc.io)
    - Derived: [EOSC-synergy/dataverse-kubernetes](https://github.com/EOSC-synergy/dataverse-kubernetes/tree/5.12)
-- Archive In A Box: [IQSS/dataverse-docker](https://github.com/IQSS/dataverse-docker)
-- Docker AIO: [IQSS/dataverse/conf/docker-aio](https://github.com/IQSS/dataverse/tree/develop/conf/docker-aio)
+- Archive in a Box: [IQSS/dataverse-docker](https://github.com/IQSS/dataverse-docker)
+- Docker All In One (AIO): [IQSS/dataverse/conf/docker-aio](https://github.com/IQSS/dataverse/tree/develop/conf/docker-aio)
 - KU Leuven RDM Repository: [libis/rdm-build](https://github.com/libis/rdm-build)
 - LIP Computing: [lip-computing/dataverse](https://gitlab.com/lip-computing/dataverse)
 - Patrick Carlson: [PR 8709](https://github.com/IQSS/dataverse/pull/8709)
+- NDS Labs Service Catalog: [nds-org/ndslabs-specs](https://github.com/nds-org/ndslabs-specs/blob/2.0.1/dataverse/dataverse.json)
 
-## Working group meetings
-
-The working group will be officially kicked of during the [Dataverse Community Call](https://dataverse.org/community-calls) on [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC)
-([Meeting notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#)).
-
-Have your say, RSVP in the list of attendees!
-
-## Get in touch
-
-We welcome anyone who wants to join our discussions. Send us an email or join us on [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/) or [Matrix](https://chat.dataverse.org) or [Dataverse Community Slack](https://dataversecommunity.slack.com/).
