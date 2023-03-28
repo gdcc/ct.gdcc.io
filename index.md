@@ -45,3 +45,6 @@ Existing prior containerization efforts:
 - Patrick Carlson: [PR 8709](https://github.com/IQSS/dataverse/pull/8709)
 - NDS Labs Service Catalog: [nds-org/ndslabs-specs](https://github.com/nds-org/ndslabs-specs/blob/2.0.1/dataverse/dataverse.json)
 
+## Improving this website
+
+Please feel free open an issue or create a pull request at https://github.com/gdcc/ct.gdcc.io
