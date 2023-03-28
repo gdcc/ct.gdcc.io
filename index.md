@@ -47,4 +47,4 @@ Existing prior containerization efforts:
 
 ## Improving this website
 
-Please feel free open an issue or create a pull request at https://github.com/gdcc/ct.gdcc.io
+Please feel free open an issue or create a pull request at <https://github.com/gdcc/ct.gdcc.io>
