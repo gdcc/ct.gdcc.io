@@ -20,6 +20,8 @@ See the [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCK
 
 ## Working group meetings
 
+We welcome anyone to join our meetings, which occur on Zoom: <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
+
 - [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC) kickoff, during the [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#), [recording](https://harvard.zoom.us/rec/share/qb3gd3pboooRa9UHyLyIvPfxVgoahbGWFaxLdJDO2VD-MGMqWnZIsJjc3Rxao6Wu.-Y-CiwvgRwVj8v6c)).
 - [2023-03-23, 14:00 UTC](https://time.is/compare/1400_23_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1UmKajGpOH8tkvyEbgIYvHDKZBAMfdvCp8AZC0ZEEtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kviiT4GO2zruomf0T-QHCWqDksK6jT525bPrENNGWf01MhLtZOS0mU3b6Gw-_usp.CnoqlfsFqvOhXEyY))
 - [2023-03-30, 14:00 UTC](https://time.is/compare/1400_30_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Z1PUOp19zJVEGNcFsV7tqPErWQnkVV6qkDo5ZQUHMVM/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/HsGlcXqaY-PR0pCWkZFzmmP6zus5pdXq4AlKhM4EgRTF-3OEB74wZhv7e7dueebp.RsriUxxBS4KYdSa3))
@@ -27,7 +29,7 @@ See the [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCK
 
 ## Get in touch
 
-We welcome anyone who wants to join our meetings and discussions. Please join us on [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/) (preferred) or [chat.dataverse.org](https://chat.dataverse.org).
+Please join us in [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/) (preferred) or [chat.dataverse.org](https://chat.dataverse.org).
 
 ## References
 
