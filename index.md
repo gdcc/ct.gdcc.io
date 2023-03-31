@@ -14,9 +14,19 @@ Containers may be used in very different contexts such as development, testing, 
 They also are a way to run the Dataverse software and its dependencies and integrations in enclosed units on different platforms of operating systems and/or hardware.
 This working group aims to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
-## Projects and discussion topics
+## Projects
 
-See the [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit), meeting notes, and recordings.
+As we are just getting started, we are focused on a single project:
+
+- Create a [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) of how to proceed with Dataverse Containerization and present it at the [community call](https://dataverse.org/community-calls) on April 18, 2023.
+
+## Discussion topics
+
+- Containerized Dataverse for dev
+- Containerized Dataverse for testing
+- Containerized Dataverse for demo or evaluation
+- Containerized Dataverse for production
+- Many more on [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/)
 
 ## Working group meetings
 
