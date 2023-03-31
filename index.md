@@ -4,7 +4,7 @@ title: Home
 
 ## Members
 
-**Members:** T.B.A.<br>
+**Members:** T.B.A.  
 **Chairs:** T.B.A.
 
 ## Motivation and goals
