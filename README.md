@@ -1,6 +1,6 @@
 # ct.gdcc.io
 
-Website for the Containerization Working Group.
+The source for https://ct.gdcc.io, the website for the Containerization Working Group.
 
 ## Contributing
 
