@@ -1,0 +1,117 @@
+﻿DRAFT - Dataverse Containerization
+
+
+This version: 0.0.1rc1, 2023
+Philip Durbin, Oliver Bertuch, ...
+Overview
+Background
+Strategy
+Roadmap
+Milestones
+Future
+
+
+Overview[a]
+
+
+There is a high demand for containerization by multiple audiences including sysadmins deploying Dataverse in production and developers running Dataverse locally. We plan to focus on the developer use case first, followed by using containers in continuous integration and testing generally, followed by...
+
+
+Background
+
+
+...
+
+
+Strategy
+
+
+...
+Roadmap
+
+
+Milestones
+
+
+* Milestone A: Dataverse in containers for a backend (Java) developer 
+   * Docker Compose
+      * Docker Compose can be used to bring up the containers.
+      * Maven is used to build the image. Discussion of not requiring Maven to build the application image is at https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/build.20w.2Fo.20Maven/near/342607574
+   * Push images to Registries
+      * Dataverse Application Image
+         * https://github.com/IQSS/dataverse/pull/9447
+         * Pet project to develop the flows: https://github.com/poikilotherm/test-image-push-flows 
+         * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry
+      * Solr image with pre-optimized configset (to create core from)
+         * TODO: create new issue (kind of exists with #7662, but fresh one is a good idea)
+         * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/mdbtool
+         * SolrCloud? Might be easier to use vanilla Solr image if we just ship a smaller app that creates the configset and does other init jobs.
+      * Solr alternative: ship an initializing/config building container to reuse vanilla images
+   * [Configurability][b][c]
+      * metadata blocks
+      * custom roles and groups
+      * MPCONFIG for all JVM settings
+      * Compatibility of DB settings with MPCONFIG?
+* Milestone B: Dataverse in containers for an integration/frontend developer
+   * Keycloak Dependency?
+   * What should go in the state?
+      * What storage is necessary?
+* Milestone C: Run API tests against Docker containers instead of EC2 instances
+   * Currently, these are triggered by a webhook and launched from jenkins.dataverse.org
+   * [Github Workflows for API tests]
+* Milestone D: Improve developer experience
+   * Autoreloading code changes?
+   * Storage options
+* Milestone E: demo/evaluation, kick the tires
+   * spin up a fully scalable environment? Using Terraform and Ansible or similar?
+* Milestone F:
+
+
+Future
+Production
+
+
+* storage
+   * mount S3 as NFS
+* no single point of failure
+   * multiple postgres
+      * pg auto failover, monitor node
+   * multiple Solr
+      * Solr indexes need to be synced, maybe use Solr Cloud
+   * multiple payara
+________________
+
+
+
+
+
+
+
+
+* dev
+   * http://preview.guides.gdcc.io/en/develop/container/dev-usage.html
+   * move setup script into a container
+   * Solr: make it possible to have a configset ready to use. Could be used for SolrCloud, for example. Use TSV files, create a schema from it. Make a delivery pipeline available. https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/mdbtool/near/340715866
+   * pushing images to registries
+      * https://github.com/IQSS/dataverse/pull/9447
+      * https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry
+      * https://github.com/poikilotherm/test-image-push-flows Pet project to test some CI/CD workflows for this
+      * Will help frontend devs (no need for Java)
+   * build without Maven: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/build.20w.2Fo.20Maven
+   * configuration/bootstrapping (setup-all script): https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/configuration.20.2F.20bootstrapping
+      * See conversation in Zoom chat!
+      * Something more cloud ready?
+      * Who does more conversions from System.getProperty to MPCONFIG?
+      * How to deal with DB settings and MPCONFIG?
+   * other containers for dev (Benjamin P)
+      * I want to test my Dataverse client
+      * Unreliable, only works a third of the time. API "version" won't respond. (Slava responded: according to our DANS DevOps team, it can be related to some RHEL problems with Docker updates, however stable on Ubuntu and other Linux OS)
+* testing
+   * currently using EC2 instances
+* demo/evaluation
+* future
+   * supporting sensitive data, medical data, etc.
+      * Mongo 6, encrypted data
+[a]We'll try to use a format similar to the doc linked from https://dataverse.org/blog/restructuring-dataverse-ui-single-page-application
+[b]Is this a milestone of its own? It will be a rather large task
+[c]You're right. Let's take this out of milestone A and break it up across multiple milestones.
