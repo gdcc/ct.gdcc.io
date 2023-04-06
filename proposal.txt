@@ -33,38 +33,55 @@ Roadmap
 Milestones
 
 
-* Milestone A: Dataverse in containers for a backend (Java) developer 
-   * Docker Compose
-      * Docker Compose can be used to bring up the containers.
-      * Maven is used to build the image. Discussion of not requiring Maven to build the application image is at https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/build.20w.2Fo.20Maven/near/342607574
-   * Push images to Registries
-      * Dataverse Application Image
-         * https://github.com/IQSS/dataverse/pull/9447
-         * Pet project to develop the flows: https://github.com/poikilotherm/test-image-push-flows 
-         * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry
-      * Solr image with pre-optimized configset (to create core from)
-         * TODO: create new issue (kind of exists with #7662, but fresh one is a good idea)
-         * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/mdbtool
-         * SolrCloud? Might be easier to use vanilla Solr image if we just ship a smaller app that creates the configset and does other init jobs.
+* Milestone A: Dataverse in containers for a backend (Java) developer[b][c] 
+   * Clean up documentation (Size: 3)
+      * Update Windows dev page: https://guides.dataverse.org/en/5.13/developers/windows.html
+      * can use vanilla `docker compose up` instead of `mvn docker:run`: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
+      * Faster way to iterate on Java than `mvn -Pct clean package docker:run`?
+   * Closed/merged (add more here)
+      * app image: https://github.com/IQSS/dataverse/pull/9439
+      * configurability
+         * PID provider settings: https://github.com/IQSS/dataverse/pull/8828
+* Milestone B: Dataverse in containers for an integration/frontend developer (no need for Java), develop branch only
+   * `docker compose up` with no Java installed
+      * Push app images of develop branch to Docker Hub: https://github.com/IQSS/dataverse/pull/9447 (Size: 10)
+      *    * * Milestone C: Dataverse in containers for an integration/frontend developer (no need for Java), any pull request
+   * Push app images of each pull request to GitHub Container Registry (Size: 33?)
+* Milestone D: Improve developer experience
+   * Autoreloading code changes? https://github.com/IQSS/dataverse/issues/5593
+   * Storage options
+      * Ability to test S3 code (Minio or SeaweedFS or S3 Testcontainers, or possibly LocalStack? https://localstack.cloud/ )
+* Milestone E: demo/evaluation, kick the tires (archive in a box), users will be less technical, on a Linux server
+   * Start tagging some images as "demo" (or "wip") (Size: 10, process questions)
+   * Create page on demo usage (similar to development usage)
+      * clone repo
+      * run these commands
+         * docker compose
+            * Create docker-compose-demo.yml with "demo" instead of "latest"
+      * go to this port
+* : demo with some configurability
+* Milestone F: fancy demo with Terraform or similar
+   * spin up a fully scalable environment? Using Terraform and Ansible or similar? (Size: 80)
+* Milestone G: demo/evaluation, kick the tires (archive in a box), users will be less technical, on a Windows server
+   * clone repo
+      * (0) A cloned Dataverse by Git for Windows with the line-ending setting is set to always LF (core.autocrlf=input)
+* Milestone H: Run API tests against Docker containers instead of EC2 instances
+   * Currently, these are triggered by a webhook and launched from jenkins.dataverse.org
+   * [Github Workflows for API tests]
+   * Solr image with pre-optimized configset (to create core from)
+      * TODO: create new issue (kind of exists with #7662, but fresh one is a good idea)
+      * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/mdbtool
+      * SolrCloud? Might be easier to use vanilla Solr image if we just ship a smaller app that creates the configset and does other init jobs.
       * Solr alternative: ship an initializing/config building container to reuse vanilla images
-   * [Configurability][b][c]
+* Milestone Z: ???
+   * [Configurability][d][e]
       * metadata blocks
       * custom roles and groups
       * MPCONFIG for all JVM settings
       * Compatibility of DB settings with MPCONFIG?
-* Milestone B: Dataverse in containers for an integration/frontend developer
-   * Keycloak Dependency?
-   * What should go in the state?
-      * What storage is necessary?
-* Milestone C: Run API tests against Docker containers instead of EC2 instances
-   * Currently, these are triggered by a webhook and launched from jenkins.dataverse.org
-   * [Github Workflows for API tests]
-* Milestone D: Improve developer experience
-   * Autoreloading code changes?
-   * Storage options
-* Milestone E: demo/evaluation, kick the tires
-   * spin up a fully scalable environment? Using Terraform and Ansible or similar?
-* Milestone F:
+      * What should go in the state?
+         * What storage is necessary?
+      * Keycloak Dependency?
 
 
 Future
@@ -112,6 +129,38 @@ ________________
 * future
    * supporting sensitive data, medical data, etc.
       * Mongo 6, encrypted data
+
+
+
+
+
+
+
+
+________________
+
+
+   * Docker Compose
+      * Docker Compose can be used to bring up the containers.
+      * Maven is used to build the image. Discussion of not requiring Maven to build the application image is at https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/build.20w.2Fo.20Maven/near/342607574
+   * Push images to Registries
+      * Dataverse Application Image
+         * Push app image to Docker Hub: https://github.com/IQSS/dataverse/pull/9447 (Size: 10)
+         * Pet project to develop the flows: https://github.com/poikilotherm/test-image-push-flows 
+         * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry
+
+
 [a]We'll try to use a format similar to the doc linked from https://dataverse.org/blog/restructuring-dataverse-ui-single-page-application
-[b]Is this a milestone of its own? It will be a rather large task
-[c]You're right. Let's take this out of milestone A and break it up across multiple milestones.
+[b]I would like to split up milestone A into GitHub issues that represent future pull requests.
+
+
+For each issue I'd like to apply our standard sizes (3=two hours, 10=seven hours, 33=twenty-four hours) to indicated how much effort it is needed to get the pull request all the way through QA and merged.
+
+
+For issues or features that are already completed, I'd like to indicate that it's done and link to issues or pull requests.
+
+
+Especially for this first milestone, I would like for us to complete it with the smallest remaining scope possible. We've already done a lot! 🎉
+[c]Comments are welcome here of course but we can also chat about it here: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/scope.20of.20milestone.20A
+[d]Is this a milestone of its own? It will be a rather large task
+[e]You're right. Let's take this out of milestone A and break it up across multiple milestones.
