@@ -30,13 +30,18 @@ As we are just getting started, we are focused on a single project:
 
 ## Working group meetings
 
-We welcome anyone to join our meetings, which occur on Zoom: <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
+We welcome anyone to join our meetings, which occur on Zoom using <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09> (except community calls).
 
 - [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC) kickoff, during the [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#), [recording](https://harvard.zoom.us/rec/share/qb3gd3pboooRa9UHyLyIvPfxVgoahbGWFaxLdJDO2VD-MGMqWnZIsJjc3Rxao6Wu.-Y-CiwvgRwVj8v6c)).
 - [2023-03-23, 14:00 UTC](https://time.is/compare/1400_23_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1UmKajGpOH8tkvyEbgIYvHDKZBAMfdvCp8AZC0ZEEtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kviiT4GO2zruomf0T-QHCWqDksK6jT525bPrENNGWf01MhLtZOS0mU3b6Gw-_usp.CnoqlfsFqvOhXEyY))
 - [2023-03-30, 14:00 UTC](https://time.is/compare/1400_30_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Z1PUOp19zJVEGNcFsV7tqPErWQnkVV6qkDo5ZQUHMVM/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/HsGlcXqaY-PR0pCWkZFzmmP6zus5pdXq4AlKhM4EgRTF-3OEB74wZhv7e7dueebp.RsriUxxBS4KYdSa3))
 - [2023-04-06, 14:00 UTC](https://time.is/compare/1400_06_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1YVIKW7stAiGwJtuijDlC85cBnBGdEsi_z0mJb0FOysw/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/nv8YUZ4T0XwHLCJOZHTtNUORe5hhMSnpVnfDalAVgqM_i_OLnpttQHz-0wPDBOk.Cd-4oWXs-tJUaCg_))
-- [2023-04-13, 14:00 UTC](https://time.is/compare/1400_13_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1qmMRiXoRl_mKugD0qXynzep4pL0hHwCKHMBDF5jCtWs/edit?usp=sharing), recording)
+- [2023-04-13, 14:00 UTC](https://time.is/compare/1400_13_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1qmMRiXoRl_mKugD0qXynzep4pL0hHwCKHMBDF5jCtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/9tnJO4URrE9W1YnB3gu71LHadV480KFDZovxaPkOv0k6_0h9AAqzxej7_fEcD0an.uY_9scBGRb1YIVoW))
+- [2023-04-18, 15:00 UTC](https://time.is/compare/1500_18_Apr_2023_in_UTC) during the [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), recording)
+- 2023-04-20 no meeting!
+- [2023-04-27, 14:00 UTC](https://time.is/compare/1400_27_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Hz47lLjE9h1-YE5zD2wu4tT1ObB6vB6Nr3m16pQ4LF4/edit?usp=sharing), recording)
+
+
 
 ## Get in touch
 
