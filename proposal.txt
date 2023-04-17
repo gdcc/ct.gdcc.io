@@ -2,7 +2,7 @@
 
 
 This version: 0.0.1rc1, 2023
-Philip Durbin, Oliver Bertuch, ...
+Philip Durbin, Oliver Bertuch, Guillermo Portas...
 Overview
 Background
 Strategy
@@ -27,56 +27,85 @@ Strategy
 
 
 ...
+Give community until Wed May 3rd to give feedback.
 Roadmap
 
 
 Milestones
 
 
-* Milestone A: Dataverse in containers for a backend (Java) developer[b][c] 
+* Milestone A: Dataverse in containers for a backend (Java) developer 
    * Clean up documentation (Size: 3)
+      * Explain how to redeploy
+      * Explain how to view logs (Slack discussion)
       * Update Windows dev page: https://guides.dataverse.org/en/5.13/developers/windows.html
-      * can use vanilla `docker compose up` instead of `mvn docker:run`: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
-      * Faster way to iterate on Java than `mvn -Pct clean package docker:run`?
+         * A cloned Dataverse by Git for Windows with the line-ending setting is set to always LF (core.autocrlf=input)
+   * Developer experience (Size: 10)
+      * Can use vanilla `docker compose up` instead of `mvn docker:run`: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
+         * Needs to add “ignore build” in POM and second Dockerfile with multistep build
+      * Faster way to iterate on Java than `mvn -Pct clean package docker:run`?[b]
+         * Prepare and document how to use JRebel (base+app image)
+         * Test docker:watch and enabled hot redeploy (app image)
+   * Configurability (Size: 33)
+      * Make storage configuration use MPCONFIG
+      * Make mail subsystem use MPCONFIG #7424 
    * Closed/merged (add more here)
-      * app image: https://github.com/IQSS/dataverse/pull/9439
+      * app image: #9439
       * configurability
-         * PID provider settings: https://github.com/IQSS/dataverse/pull/8828
-* Milestone B: Dataverse in containers for an integration/frontend developer (no need for Java), develop branch only
+         * PID provider settings: #8828
+* Milestone B: Dataverse in containers for API client testing (js-dataverse, pyDataverse, R, etc.)
+   * Push app images of develop branch to Docker Hub: #9447 (Size: 10)
+      * Document limitations: must clone main repo (or at least download the necessary files, similar to dvinstall.zip or download the whole repo as a zip), must run docker-final-setup.sh
+   * Remove some of the need to clone the whole repo (or equivalent) (size: 33)
+      * Create a docker-compose file including curl calls to retrieve config files both for Solr and App image (docker-final-setup.sh). We can start from the current docker-compose-dev.yml file from the dataverse main repository and modify it to retrieve the files from the github repository instead of the local repository. Example:
+         * curl -O https://raw.githubusercontent.com/IQSS/dataverse/develop/conf/solr/8.11.1/schema_dv_mdb_fields.xml etc. (schema.xml)
+         * The curl/download calls might be from the containers entrypoint / command
+* Milestone C: Dataverse in containers for an integration/frontend developer[c][d] (no need for Java), develop branch only
    * `docker compose up` with no Java installed
-      * Push app images of develop branch to Docker Hub: https://github.com/IQSS/dataverse/pull/9447 (Size: 10)
-      *    * * Milestone C: Dataverse in containers for an integration/frontend developer (no need for Java), any pull request
-   * Push app images of each pull request to GitHub Container Registry (Size: 33?)
-* Milestone D: Improve developer experience
-   * Autoreloading code changes? https://github.com/IQSS/dataverse/issues/5593
+      * Images should be preconfigured to not need a startup script (e.g. docker-final-setup.sh)
+         * Solr issue for this: #9516 (size: 80)
+            * Perhaps we could use a vanilla container but prepopulate the config using an init container.
+            * Alternatively, we could build our own Solr image.
+            * Either way, instead of having schema.xml etc in the code base, these could be generated.
+            * Document how to modify the schema (and TSV) or defer this to a future milestone.
+         * For Dataverse application image, a few possibilities (size: 80)
+            * run docker-final-setup.sh from within "dataverse" container, this is what dataverse-docker does, scripts can be added/extended
+            * separate container (not in application image), waitfor script, polling, then do the necessary setup, make script extensible, people can add their own scripts. Needs a name (not "init container"), maybe "configuration container" or "bootstrapping container"
+            * not init container (but runs before application is running and docker compose doesn't know about it)
+* Milestone D: Dataverse in containers for an integration/frontend developer (no need for Java), any pull request
+   * Push (app) images of each pull request to GitHub Container Registry (Size: 33)
+* Milestone E: Improve developer experience
+   * Autoreloading code changes? #5593
    * Storage options
       * Ability to test S3 code (Minio or SeaweedFS or S3 Testcontainers, or possibly LocalStack? https://localstack.cloud/ )
-* Milestone E: demo/evaluation, kick the tires (archive in a box), users will be less technical, on a Linux server
+* Milestone F: demo/evaluation, kick the tires (archive in a box), users will be less technical, on a Linux server
    * Start tagging some images as "demo" (or "wip") (Size: 10, process questions)
    * Create page on demo usage (similar to development usage)
       * clone repo
       * run these commands
          * docker compose
-            * Create docker-compose-demo.yml with "demo" instead of "latest"
+            * Create docker-compose-demo.yml with "demo" instead of "latest"[e][f]
       * go to this port
-* : demo with some configurability
-* Milestone F: fancy demo with Terraform or similar
+   * Bundle additional tools like email catchers and pgadmin?
+* Milestone G: demo with some configurability
+   * Change the root collection alias and name
+   * ... 
+* Milestone H: fancy demo with Terraform or similar[g][h]
    * spin up a fully scalable environment? Using Terraform and Ansible or similar? (Size: 80)
-* Milestone G: demo/evaluation, kick the tires (archive in a box), users will be less technical, on a Windows server
-   * clone repo
-      * (0) A cloned Dataverse by Git for Windows with the line-ending setting is set to always LF (core.autocrlf=input)
-* Milestone H: Run API tests against Docker containers instead of EC2 instances
+* Milestone I: Run API tests against Docker containers instead of EC2 instances
+   * API tests from within the Dataverse codebase itself (SearchIT.java, etc.)
    * Currently, these are triggered by a webhook and launched from jenkins.dataverse.org
    * [Github Workflows for API tests]
    * Solr image with pre-optimized configset (to create core from)
-      * TODO: create new issue (kind of exists with #7662, but fresh one is a good idea)
       * Discussion: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/mdbtool
       * SolrCloud? Might be easier to use vanilla Solr image if we just ship a smaller app that creates the configset and does other init jobs.
       * Solr alternative: ship an initializing/config building container to reuse vanilla images
-* Milestone Z: ???
-   * [Configurability][d][e]
-      * metadata blocks
-      * custom roles and groups
+* Milestone Z: [Configurability][i][j][k] (but we add configurability throughout)
+      * Metadata Blocks
+      * Custom roles and groups
+      * Authentication providers
+      * Customization (JS/HTML/CSS)
+      * External Vocabularies
       * MPCONFIG for all JVM settings
       * Compatibility of DB settings with MPCONFIG?
       * What should go in the state?
@@ -96,7 +125,12 @@ Production
    * multiple Solr
       * Solr indexes need to be synced, maybe use Solr Cloud
    * multiple payara
-________________
+* operator
+* running containers as non-root (required by OpenShift)
+* demo/evaluation, kick the tires (archive in a box), users will be less technical, on a Windows server
+   * clone repo
+   * (0) A cloned Dataverse by Git for Windows with the line-ending setting is set to always LF (core.autocrlf=input)
+* * ________________
 
 
 
@@ -151,16 +185,31 @@ ________________
 
 
 [a]We'll try to use a format similar to the doc linked from https://dataverse.org/blog/restructuring-dataverse-ui-single-page-application
-[b]I would like to split up milestone A into GitHub issues that represent future pull requests.
+[b]This is again picked up in Milestone E below. Maybe move there?
+[c]In my opinion, if this milestone is oriented to a frontend developer, we should include the custom solr image creation and its registry push (Now defined in "Milestone H").
 
 
-For each issue I'd like to apply our standard sizes (3=two hours, 10=seven hours, 33=twenty-four hours) to indicated how much effort it is needed to get the pull request all the way through QA and merged.
+I think the main advantage for a frontend developer or any non-backend developer is not needing to clone the Dataverse backend repository to setup the environment. Remember that Solr configurations are loaded from the repository when running the containers. Having such configurations contained in a custom pre-pushed image would avoid having to clone the repository.
+[d]Right. I mentioned this as a detail during the meeting but didn't write anything down.
 
 
-For issues or features that are already completed, I'd like to indicate that it's done and link to issues or pull requests.
+I think it's ok for the frontend developer to have a requirement of cloning the backend repo.
 
 
-Especially for this first milestone, I would like for us to complete it with the smallest remaining scope possible. We've already done a lot! 🎉
-[c]Comments are welcome here of course but we can also chat about it here: https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/scope.20of.20milestone.20A
-[d]Is this a milestone of its own? It will be a rather large task
-[e]You're right. Let's take this out of milestone A and break it up across multiple milestones.
+In a future milestone, we can remove this requirement, of course.
+[e]The difference between a 'dev' and a 'demo' version of the Dataverse container may be more than just a difference in versions. I'm thinking about autoreloading and remote debugging support that may be applicable only to the 'dev' version. And on the compose file differences, maybe the inclusion of email catchers, admin tools like pgadmin and the solr admin comes to my mind.
+[f]Yes. There's a lot to unpack in your comment but hopefully we can do so soon!
+[g]Personally, I associate Terraform and Ansible more with a quick start scenario than a demo. Maybe it is just about the wording of 'fancy demo', but I would see this more as a Proof Of Concept/Test installation in which an organisation tries out different configuration options in order to see what the implications are and to optimize their options. Something like a pre-production scenario.
+[h]Yes, "fancy demo" was shorthand for tooling that I'm not personally very familiar with. I have a passing familiarity with Ansible. I've only heard of Terraform. I put a size of 80 on this but it's probably much higher.
+
+
+Basically, doing all this work should help us take steps toward production use cases without actually declaring that we are ready for production uses cases. So yes, pre-production, testing, etc.
+[i]Is this a milestone of its own? It will be a rather large task
+[j]You're right. Let's take this out of milestone A and break it up across multiple milestones.
+[k]In the meeting today I said that I think almost every milestone should have some tasks related to adding more configurability.
+
+
+Each milestone has a theme or user story and I'm sure we can work in some config stuff.
+
+
+Someone evaluating Dataverse might want to test a custom metadata block, for example.
