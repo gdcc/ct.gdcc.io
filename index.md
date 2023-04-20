@@ -14,6 +14,13 @@ Containers may be used in very different contexts such as development, testing, 
 They also are a way to run the Dataverse software and its dependencies and integrations in enclosed units on different platforms of operating systems and/or hardware.
 This working group aims to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
+## New features and bug fixes 🎁
+
+- 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See https://github.com/IQSS/dataverse/pull/8828
+- 2023-03-20 If you have Java and Maven installed, you can spin up Dataverse in Docker! See [dev usage][] and https://github.com/IQSS/dataverse/pull/9439
+
+[dev usage]: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
+
 ## Projects
 
 As we are just getting started, we are focused on a single project:
