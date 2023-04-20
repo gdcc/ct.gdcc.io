@@ -2,11 +2,6 @@
 title: Home
 ---
 
-## Members
-
-**Members:** T.B.A.  
-**Chairs:** T.B.A.
-
 ## Motivation and goals
 
 The Containerization Working Group aims to support running the [Dataverse software](https://dataverse.org) within [containers](https://kubernetes.io/docs/concepts/containers/).
