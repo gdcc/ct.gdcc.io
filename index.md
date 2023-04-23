@@ -16,19 +16,19 @@ This working group aims to include many perspectives and use cases to make sure 
 
 [dev usage]: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
 
-## Projects
+## Roadmap
 
-As we are just getting started, we are focused on a single project:
+We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) as a series of milestone during the 2023-04-18 [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
 
-- Create a [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) of how to proceed with Dataverse Containerization and present it at the [community call](https://dataverse.org/community-calls) on April 18, 2023.
+- Milestone A: For backend (Java) developers
+- Milestone B: For API client testing
+- Milestone C: For an integration/frontend developer (w/o Java)
+- Milestone D: Improve developer experience
+- Milestone E: Demo or evaluation
+- Milestone F: Demo with some configurability
+- Milestone G: Run API tests in containers
 
-## Discussion topics
-
-- Containerized Dataverse for dev
-- Containerized Dataverse for testing
-- Containerized Dataverse for demo or evaluation
-- Containerized Dataverse for production
-- Many more on [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/)
+As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
 
 ## Working group meetings
 
