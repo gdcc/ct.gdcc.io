@@ -11,7 +11,7 @@ This working group aims to include many perspectives and use cases to make sure 
 
 ## New features and bug fixes 🎁
 
-- 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See <https://github.com/IQSS/dataverse/pull/9447>.
+- 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See <https://github.com/IQSS/dataverse/pull/9447> and [related discussion](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry).
 - 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See <https://github.com/IQSS/dataverse/pull/8828>.
 - 2023-03-20 If you have Java and Maven installed, you can spin up Dataverse in Docker! See [dev usage][] and <https://github.com/IQSS/dataverse/pull/9439>.
 
