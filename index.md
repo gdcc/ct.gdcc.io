@@ -33,7 +33,7 @@ As we merge pull requests, we will update "new features" list above. We'll use t
 
 ## Working group meetings
 
-We welcome anyone to join our meetings, which occur on Zoom using <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09> (except community calls).
+We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
 - [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC) kickoff, during the [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#), [recording](https://harvard.zoom.us/rec/share/qb3gd3pboooRa9UHyLyIvPfxVgoahbGWFaxLdJDO2VD-MGMqWnZIsJjc3Rxao6Wu.-Y-CiwvgRwVj8v6c)).
 - [2023-03-23, 14:00 UTC](https://time.is/compare/1400_23_Mar_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1UmKajGpOH8tkvyEbgIYvHDKZBAMfdvCp8AZC0ZEEtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kviiT4GO2zruomf0T-QHCWqDksK6jT525bPrENNGWf01MhLtZOS0mU3b6Gw-_usp.CnoqlfsFqvOhXEyY))
