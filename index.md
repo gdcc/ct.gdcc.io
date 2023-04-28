@@ -42,7 +42,7 @@ We welcome anyone to join our meetings, which occur on Zoom using <https://harva
 - [2023-04-13, 14:00 UTC](https://time.is/compare/1400_13_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1qmMRiXoRl_mKugD0qXynzep4pL0hHwCKHMBDF5jCtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/9tnJO4URrE9W1YnB3gu71LHadV480KFDZovxaPkOv0k6_0h9AAqzxej7_fEcD0an.uY_9scBGRb1YIVoW))
 - [2023-04-18, 15:00 UTC](https://time.is/compare/1500_18_Apr_2023_in_UTC) during the [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr))
 - 2023-04-20 no meeting!
-- [2023-04-27, 14:00 UTC](https://time.is/compare/1400_27_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Hz47lLjE9h1-YE5zD2wu4tT1ObB6vB6Nr3m16pQ4LF4/edit?usp=sharing), recording)
+- [2023-04-27, 14:00 UTC](https://time.is/compare/1400_27_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Hz47lLjE9h1-YE5zD2wu4tT1ObB6vB6Nr3m16pQ4LF4/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/aBdeEowQUqdKH2H9aTF_ypWe1OI3SZj6t4m_KUJi0Sjui2e7g123GnI92Itij2fV.Vi1OWvqiXVJjbRgz))
 
 
 
