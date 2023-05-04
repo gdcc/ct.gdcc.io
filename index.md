@@ -2,6 +2,8 @@
 title: Home
 ---
 
+# Please note! We have shifted our meeting time to be a half hour earlier!
+
 ## Motivation and goals
 
 The Containerization Working Group aims to support running the [Dataverse software](https://dataverse.org) within [containers](https://kubernetes.io/docs/concepts/containers/).
@@ -44,6 +46,8 @@ We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.u
 - 2023-04-20 no meeting!
 - [2023-04-27, 14:00 UTC](https://time.is/compare/1400_27_Apr_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1Hz47lLjE9h1-YE5zD2wu4tT1ObB6vB6Nr3m16pQ4LF4/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/aBdeEowQUqdKH2H9aTF_ypWe1OI3SZj6t4m_KUJi0Sjui2e7g123GnI92Itij2fV.Vi1OWvqiXVJjbRgz))
 - [2023-05-04, 14:00 UTC](https://time.is/compare/1400_4_May_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1U3yvg9yG5Wnm_tQkDLf5XyREYyFVoRE4_-UvnxuryVE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/YcaITLENsu8xdvaH6XmxENjd00TCeTzI_pIpBVMi97Nyj176C96kPsIjaEtLclG_.pSX9c_GjP79zKdZH))
+- [2023-05-04, 14:00 UTC](https://time.is/compare/1400_4_May_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1U3yvg9yG5Wnm_tQkDLf5XyREYyFVoRE4_-UvnxuryVE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/YcaITLENsu8xdvaH6XmxENjd00TCeTzI_pIpBVMi97Nyj176C96kPsIjaEtLclG_.pSX9c_GjP79zKdZH))
+- [2023-05-11, 09:30 Eastern](https://time.is/compare/0930_11_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1eQVm88dP2rgM9DKn4ivoWBx6MOK6aXfkLhsZN-Y3fsc/edit?usp=sharing), recording)
 
 ## Get in touch
 
