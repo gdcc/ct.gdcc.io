@@ -57,7 +57,7 @@ Please join us in [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-
 
 Outputs:
 
-- [Draft Proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit)
+- [Dataverse Containerization](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) Proposal/Roadmap
 - [Dataverse Container Guide](https://guides.dataverse.org/en/latest/container/index.html) ([pre-release preview](https://preview.guides.gdcc.io/en/develop/container/index.html))
 
 Existing prior containerization efforts:
