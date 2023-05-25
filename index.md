@@ -46,7 +46,10 @@ We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.u
 - [2023-05-04, 14:00 UTC](https://time.is/compare/1400_4_May_2023_in_UTC) meeting ([notes](https://docs.google.com/document/d/1U3yvg9yG5Wnm_tQkDLf5XyREYyFVoRE4_-UvnxuryVE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/YcaITLENsu8xdvaH6XmxENjd00TCeTzI_pIpBVMi97Nyj176C96kPsIjaEtLclG_.pSX9c_GjP79zKdZH))
 - [2023-05-11, 09:30 Eastern](https://time.is/compare/0930_11_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1eQVm88dP2rgM9DKn4ivoWBx6MOK6aXfkLhsZN-Y3fsc/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/1kOYrK9YRTDPv2OYES_doujAWbEyOp3hNHkcBR_iH4HvAFGYjfdoKADz0Xa1WHP3.nmdgF82lfLUQY_uN))
 - [2023-05-18, 09:30 Eastern](https://time.is/compare/0930_18_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1VuUkGSdL03nPPMepYUMk59qEfljgRkzN0oXvEp9UkqI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/QZ4XDtwJrVjTAI5o_TgnyNjV8LDPYMjrVWiN5Mz0o3u3CXctJj06HVhDprNDTt9T.pKy533mltH4GH07N))
-- [2023-05-25, 09:30 Eastern](https://time.is/compare/0930_25_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/11wz1xZuzX5SnaGyrJJM8ogCzdgORIdhWfMMpUyDhXUA/edit?usp=sharing), recording)
+- [2023-05-25, 09:30 Eastern](https://time.is/compare/0930_25_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/11wz1xZuzX5SnaGyrJJM8ogCzdgORIdhWfMMpUyDhXUA/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/ipvR-ue7MuZ8QEVo0BmykWtCk17HbEGf_FyuN9Djxh_u0gBmA4uIBNZ2racARA2n.iL9gDYgDac-ag9qn))
+- 2023-06-01: no meeting!
+- 2023-06-08: no meeting!
+- [2023-06-15, 09:30 Eastern](https://time.is/compare/0930_15_June_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1Ajoz1TqmeVUQTp6LMP5xP5l5vaiKtlg65mqW3Ep3prI/edit?usp=sharing), recording)
 
 ## Get in touch
 
