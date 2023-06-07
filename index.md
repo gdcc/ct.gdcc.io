@@ -11,23 +11,26 @@ This working group aims to include many perspectives and use cases to make sure 
 
 ## New features and bug fixes 🎁
 
-- 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See <https://github.com/IQSS/dataverse/pull/9447> and [related discussion](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry).
-- 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See <https://github.com/IQSS/dataverse/pull/8828>.
-- 2023-03-20 If you have Java and Maven installed, you can spin up Dataverse in Docker! See [dev usage][] and <https://github.com/IQSS/dataverse/pull/9439>.
+- 2023-06-01 Config baker image to streamline chore task in Dataverse setup like bootstrapping. See [PR#9574](https://github.com/IQSS/dataverse/pull/9574) and [config baker docs][]
+- 2023-05-08 Enable publishing preview application images to <ghcr.io> also for pull requests from forks. See [PR#9575](https://github.com/IQSS/dataverse/issues/9575) for details.
+- 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See [PR#9447](https://github.com/IQSS/dataverse/pull/9447) and [related discussion](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry).
+- 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See [PR#8828](https://github.com/IQSS/dataverse/pull/8828).
+- 2023-03-20 If you have Java and Maven installed, you can spin up Dataverse in Docker! See [dev usage][] and [PR#9439](https://github.com/IQSS/dataverse/pull/9439).
 
+[config baker docs]: https://preview.guides.gdcc.io/en/develop/container/configbaker-image.html
 [dev usage]: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
 
 ## Roadmap
 
 We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) as a series of milestone during the 2023-04-18 [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
 
-- Milestone A: For backend (Java) developers
-- Milestone B: For API client testing
-- Milestone C: For an integration/frontend developer (w/o Java)
-- Milestone D: Improve developer experience
-- Milestone E: Demo or evaluation
-- Milestone F: Demo with some configurability
-- Milestone G: Run API tests in containers
+- Milestone A: For backend (Java) developers (90%)
+- Milestone B: For API client testing (✅)
+- Milestone C: For an integration/frontend developer (w/o Java) (70%)
+- Milestone D: Improve developer experience (10%)
+- Milestone E: Demo or evaluation (0%)
+- Milestone F: Demo with some configurability (0%)
+- Milestone G: Run API tests in containers (0%)
 
 As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
 
