@@ -56,6 +56,8 @@ We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.u
 
 ## Get in touch
 
+We love to hear feedback from you about our goals and outputs not just during meetings, but also using chat.
+
 [![](imgs/zulip.png){: height="30" }](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/) [![](imgs/matrix.png){: height="30" }](https://chat.dataverse.org)
 
 Please join us in [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/) (preferred) or [chat.dataverse.org](https://chat.dataverse.org).
