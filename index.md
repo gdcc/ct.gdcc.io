@@ -51,7 +51,7 @@ We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.u
 - [2023-05-18, 09:30 Eastern](https://time.is/compare/0930_18_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1VuUkGSdL03nPPMepYUMk59qEfljgRkzN0oXvEp9UkqI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/QZ4XDtwJrVjTAI5o_TgnyNjV8LDPYMjrVWiN5Mz0o3u3CXctJj06HVhDprNDTt9T.pKy533mltH4GH07N))
 - [2023-05-25, 09:30 Eastern](https://time.is/compare/0930_25_May_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/11wz1xZuzX5SnaGyrJJM8ogCzdgORIdhWfMMpUyDhXUA/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/ipvR-ue7MuZ8QEVo0BmykWtCk17HbEGf_FyuN9Djxh_u0gBmA4uIBNZ2racARA2n.iL9gDYgDac-ag9qn))
 - 2023-06-01: no meeting!
-- 2023-06-07 meeting at #dataverse2023 ([notes](https://docs.google.com/document/d/1bjQtkE8e67suNKQvgXPJm2-5TCVpvz8UAOk6626TJEY/edit?usp=sharing))
+- 2023-06-07: meeting at #dataverse2023 ([notes](https://docs.google.com/document/d/1bjQtkE8e67suNKQvgXPJm2-5TCVpvz8UAOk6626TJEY/edit?usp=sharing))
 - 2023-06-08: no meeting!
 - [2023-06-15, 09:30 Eastern](https://time.is/compare/0930_15_June_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1Ajoz1TqmeVUQTp6LMP5xP5l5vaiKtlg65mqW3Ep3prI/edit?usp=sharing), recording)
 
