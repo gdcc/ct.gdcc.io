@@ -12,7 +12,7 @@ This working group aims to include many perspectives and use cases to make sure 
 ## New features and bug fixes 🎁
 
 - 2023-06-12 Container-based [dev environment for frontend](https://github.com/IQSS/dataverse-frontend#local-development-environment) (React). See [PR#87](https://github.com/IQSS/dataverse-frontend/pull/87) and [PR#112](https://github.com/IQSS/dataverse-frontend/pull/112).
-- 2023-06-01 Config baker image to streamline chore task in Dataverse setup like bootstrapping. See [PR#9574](https://github.com/IQSS/dataverse/pull/9574) and [config baker docs][]
+- 2023-06-01 Config baker image to streamline chore task in Dataverse setup like bootstrapping. See https://github.com/IQSS/dataverse/pull/9574 and [config baker docs][]
 - 2023-05-08 Enable publishing preview application images to <ghcr.io> for pull requests from forks. See [PR#9575](https://github.com/IQSS/dataverse/pull/9575) for details.
 - 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See [PR#9447](https://github.com/IQSS/dataverse/pull/9447) and [related discussion](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry).
 - 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See [PR#8828](https://github.com/IQSS/dataverse/pull/8828).
