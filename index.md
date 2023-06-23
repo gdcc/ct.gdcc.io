@@ -11,6 +11,7 @@ This working group aims to include many perspectives and use cases to make sure 
 
 ## New features and bug fixes 🎁
 
+- 2023-06-23 Lots of documentation enhancements, fulfilling milestone A as well See [PR#9584](https://github.com/IQSS/dataverse/pull/9584) and [dev usage][]
 - 2023-06-12 Container-based dev environment for the new React frontend. See [docs](https://github.com/IQSS/dataverse-frontend#local-development-environment), [PR#87](https://github.com/IQSS/dataverse-frontend/pull/87), and [PR#112](https://github.com/IQSS/dataverse-frontend/pull/112).
 - 2023-06-01 Config Baker image to streamline tasks in Dataverse setup like bootstrapping. See [Config Baker docs][] and [PR#9574](https://github.com/IQSS/dataverse/pull/9574).
 - 2023-05-08 Enable publishing preview application images to ghcr.io for pull requests from forks. See [PR#9575](https://github.com/IQSS/dataverse/pull/9575) for details.
@@ -25,7 +26,7 @@ This working group aims to include many perspectives and use cases to make sure 
 
 We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) as a series of milestone during the 2023-04-18 [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
 
-- Milestone A: For backend (Java) developers (90%)
+- Milestone A: For backend (Java) developers (✅)
 - Milestone B: For API client testing (✅)
 - Milestone C: For an integration/frontend developer (w/o Java) (70%)
 - Milestone D: Improve developer experience (10%)
