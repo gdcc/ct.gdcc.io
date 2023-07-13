@@ -56,7 +56,7 @@ We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.u
 - 2023-06-22 no meeting!
 - 2023-06-29 no meeting!
 - 2023-07-06 no meeting!
-- [2023-07-13, 09:30 Eastern](https://time.is/compare/0930_13_July_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1NNHuu8pVZmDkNf-decFWHYeo94ZcHX6PauurrACOsU8/edit?usp=sharing))
+- [2023-07-13, 09:30 Eastern](https://time.is/compare/0930_13_July_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1NNHuu8pVZmDkNf-decFWHYeo94ZcHX6PauurrACOsU8/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/CXBDjG3otG8GuQhYXwjApwTmAP-992Kcy2DWm_DhYN97sQVyrkntsNnLUuUgFsdP.kw0bKkHS1x6jR56i))
 
 
 ## Get in touch
