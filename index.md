@@ -38,7 +38,9 @@ As we merge pull requests, we will update "new features" list above. We'll use t
 
 ## Working group meetings
 
-We welcome anyone to join our meetings! The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
+We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern Time (ET).
+
+The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
 - [2023-07-20, 09:30 Eastern](https://time.is/compare/0930_20_July_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1fGXOKvqJ570XtvCi-6IfUzi3e67s-8XYBz2f8LrtGtM/edit?usp=sharing))
 - [2023-07-13, 09:30 Eastern](https://time.is/compare/0930_13_July_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1NNHuu8pVZmDkNf-decFWHYeo94ZcHX6PauurrACOsU8/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/CXBDjG3otG8GuQhYXwjApwTmAP-992Kcy2DWm_DhYN97sQVyrkntsNnLUuUgFsdP.kw0bKkHS1x6jR56i))
