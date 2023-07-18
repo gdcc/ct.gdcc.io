@@ -24,13 +24,13 @@ Containerization is the generic term for Dockerization. Containerizing the Datav
 
 * Sysadmins want to deploy Dataverse in production, staging, or demo environments.
 * Integrators want to test their code that uses Dataverse APIs (e.g. clients) or modularity (e.g. external vocabulary).
-* Contributors[a] to the core Dataverse Java code or configuration (e.g. metadata blocks) want to test their features and bug fixes.
+* Contributors to the core Dataverse Java code or configuration (e.g. metadata blocks) want to test their features and bug fixes.
 
 
 This proposal for how to proceed with containerization of Dataverse has been written by members of the Containerization Working Group which has taken into account the following facts:
 
 
-* The core development team at IQSS is not especially familiar with Docker and containerization generally.[b][c][d][e]
+* The core development team at IQSS is not especially familiar with Docker and containerization generally.
 * While the community would like production-ready images immediately, it will take time for images to mature. Any images produced will be under the umbrella of the Global Dataverse Community Consortium (GDCC) rather than IQSS and should be considered highly experimental until otherwise indicated. That said, while moving forward, we are very much keeping in mind production use cases.
 
 
@@ -51,7 +51,7 @@ Feedback on this document is very welcome! Please simply leave a comment by May 
 Prioritization
 
 
-Because the Dataverse development process is oriented around a GitHub project called Dataverse Global Backlog, it would be useful to have a dedicated column called "Containerization"[f] so that the working group can place items at the top that it feels should be prioritized.
+Because the Dataverse development process is oriented around a GitHub project called Dataverse Global Backlog, it would be useful to have a dedicated column called "Containerization" so that the working group can place items at the top that it feels should be prioritized.
 Milestones
 Milestone A: For backend (Java) developers 
 
@@ -62,13 +62,13 @@ Now that pull request #9439 (and the work leading up to it) has been merged, bac
 Milestone A represents this work that has already been completed as well as a few additional items that will benefit backend developers.
 
 
-* Clean up documentation (Size: 3)[g][h][i]
+* Clean up documentation (Size: 3)
    * Explain how to redeploy (the hard way)
    * Explain how to view logs (Slack discussion)
    * Update Windows dev page: https://guides.dataverse.org/en/5.13/developers/windows.html
       * A cloned Dataverse by Git for Windows with the line-ending setting is set to always LF (core.autocrlf=input)
    * Can use vanilla `docker compose up` instead of `mvn docker:run`: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
-* Change image tag names from "stable" to "demo" to foster the message of “unsupported by IQSS” everywhere. (Size: 3)[j][k][l][m][n]
+* Change image tag names from "stable" to "demo" to foster the message of “unsupported by IQSS” everywhere. (Size: 3)
 
 
 Milestone B: For API client testing
@@ -78,8 +78,8 @@ For example, js-dataverse, pyDataverse, R, etc.
 
 
 * Push app images to registries: #9447 (Size: 10)
-   * Develop and master go to Docker Hub[o][p], PRs go to GHCR.
-   * Document limitations: must clone main repo (or at least download the necessary files, similar to dvinstall.zip or download the whole repo as a zip), must run docker-final-setup.sh[q][r][s]
+   * Develop and master go to Docker Hub, PRs go to GHCR.
+   * Document limitations: must clone main repo (or at least download the necessary files, similar to dvinstall.zip or download the whole repo as a zip), must run docker-final-setup.sh
 * Remove some of the need to clone the whole repo (or equivalent) (Size: 33)
    * Create a docker-compose file including curl calls to retrieve config files both for Solr and App image (docker-final-setup.sh). We can start from the current docker-compose-dev.yml file from the dataverse main repository and modify it to retrieve the files from the github repository instead of the local repository. Example:
       * curl -O https://raw.githubusercontent.com/IQSS/dataverse/develop/conf/solr/8.11.1/schema_dv_mdb_fields.xml etc. (schema.xml)
@@ -94,35 +94,36 @@ Milestone C: For an integration/frontend developer (w/o Java)
    * Images should be preconfigured to not need a startup script (e.g. docker-final-setup.sh)
       * Solr issue for this: #9516 (size: 80)
          * Perhaps we could use a vanilla container but prepopulate the config using an init container. (Might also be beneficial for using SolrCloud, shipping config via Zookeeper)
-         * Alternatively, we could build our own Solr image. (discussion)[t][u]
-         * Either way, instead of having schema.xml and solrconfig.xml in the code base, these could be generated from vanilla.[v][w] (See mdbtool)
+         * Alternatively, we could build our own Solr image. (discussion)
+         * Either way, instead of having schema.xml and solrconfig.xml in the code base, these could be generated from vanilla. (See mdbtool)
          * Document how to modify the schema (and TSV) or defer this to a future milestone.
       * For Dataverse application image, a few possibilities (size: 80)
-         * run docker-final-setup.sh from within "dataverse" container, this is what dataverse-docker does, scripts can be added/extended[x][y][z]
+         * run docker-final-setup.sh from within "dataverse" container, this is what dataverse-docker does, scripts can be added/extended
          * separate container (not in application image), waitfor script, polling, then do the necessary setup, make script extensible, people can add their own scripts. Needs a name (not "init container"), maybe "configuration container" or "bootstrapping container"
          * not init container (but runs before application is running and docker compose doesn't know about it)
 * Unify setup scripts for classic installer vs. bootstrapping of containers by creating an extensible framework for setup scripts. (Size: 80)
-   * Will include Metadata blocks, custom roles and groups, authentication providers[aa][ab][ac]
+   * Will include Metadata blocks, custom roles and groups, authentication providers
 * Configurability (Size: 10)
    * Make mail subsystem use MPCONFIG #7424 
 Milestone D: Improve developer experience
 
 
-* Smoke test within GitHub Actions: deploy and bootstrap, make logs available (Size: 33)[ad][ae][af]
+* Smoke test within GitHub Actions: deploy and bootstrap, make logs available (Size: 33)
 * Autoreloading code changes? #5593
    * Faster way to iterate on Java than `mvn -Pct clean package docker:run`?
       * Prepare and document how to use JRebel (base+app image)
       * Test docker:watch and enabled hot redeploy (app image)
-* Under dev usage docs, explain debugging options.[ag][ah][ai]
+* Under dev usage docs, explain debugging options.
 * Storage options
    * Ability to test S3 code (Minio or SeaweedFS or S3 Testcontainers, or possibly LocalStack? https://localstack.cloud/ )
-   * Configurability: Make storage configuration use MPCONFIG (Size: 33)[aj]
+   * Configurability: Make storage configuration use MPCONFIG (Size: 33)
+   * Location of Docroot: look into making the docroot location configurable or use some other hack to store this important data on some volume. Some Java code is directly using with the location for different tasks. Also relates to customization. (Size: 33)
 Milestone E: Demo or evaluation 
-kick the tires (archive in a box), users will be less technical[ak][al][am]
+kick the tires (archive in a box), users will be less technical
 
 
 * Create docker-compose-demo.yml with "demo" instead of "latest"
-* Create docs page on demo usage (similar to development usage)[an][ao]
+* Create docs page on demo usage (similar to development usage)
    * “clone repo”, “run these commands”, “go to this port”
 * Incorporate Reverse Proxy
 * Incorporate Keycloak?
@@ -135,7 +136,7 @@ Milestone F: Demo with some configurability
 Milestone G: Run API tests in containers
 
 
-* See also "smoke test[ap]" above.
+* See also "smoke test" above.
 * MPCONFIG for remaining dozen JVM settings (Size: 80)
 * Refactor tests to use JUnit5 and helpers to manipulate the JVM settings during testing (Size: 33)
 * Handle stored procedures in PostgreSQL (Size: 10)
@@ -145,7 +146,7 @@ Milestone G: Run API tests in containers
 Future/Production
 
 
-* Provide examples (documentation) for different container environments:[aq][ar]
+* Provide examples (documentation) for different container environments:
    * How to run on OpenShift (also requiring running as non-root)
    * How to spin up simple infrastructures using Terraform/Ansible to run the containers on top
    * Let the community provide more guides for more complex and more sophisticated use cases, to be included in the examples.
@@ -154,95 +155,4 @@ Future/Production
       * Links to tutorials how to run SolrCloud and docs about how to create a deployment pipeline for the schema
 * Compatibility of DB settings with MPCONFIG? (Envisioning a future single source of configuration in one file to rule them all, similar to dataverse-ansible's main.yml)
 * Make Dataverse use Hazelcast and address https://guides.dataverse.org/en/5.13/installation/advanced.html#multiple-app-servers
-* Operator to maintain a Dataverse installation on a Kubernetes, add Helm charts etc. [as][at]
-
-
-[a]Translators too!
-[b]are there plans form IQSS to migrate to docker?
-[c]I suppose it's far to early to speak of such a huge change being on the horizon. I know that Phil is enjoying using Docker in his day-to-day dev routine, but the way from using Docker in development to running Harvard Dataverse containerized is a long 'n' winding one.
-[d]This morning I'm close to getting another IQSS Dataverse developer to install Docker! 😁
-[e]In occurs to me, Johannes, that you might be inquiring about running Harvard Dataverse in Docker. That is, using Docker in production rather than development at IQSS.
-[f]We now have a dedicated column called "Containerization" in the Global Backlog board: https://github.com/orgs/IQSS/projects/34/views/17
-[g]Explain the different development approaches bare metal, docker, 
-Vagrant and name the preferred one.
-[h]Personally, while I agree in general, I think this is beyond scope of this working group. If I had to choose, I'd ditch any other stuff aside "bare metal" and "containers as we do them now".
-[i]For now I added this idea to https://github.com/IQSS/dataverse/issues/9540 (the size 3 issue for doing the doc cleanup). Thanks!
-[j]Could we use the git branch names to keep it simple?
-[k]_Marked as resolved_
-[l]_Re-opened_
-[m]This is a complicated one. I do not want to reuse the current production branch name for obvious reasons. Also, the idea was to decouple branch names and tags, as they are different things.
-
-
-Before we went for unstable/stable (now unstable/alpha to be as careful as possible), I had "nightly/release". I _think_ someone did not like that terminology and I ditched running a scheduled nightly build for building on every merge to develop branch.
-
-
-Yet, if this working group wants to have different tags, please let's talk about this. Make it an agenda item for next time?
-[n]Sure, past and future agendas are linked from https://ct.gdcc.io if anyone would like to add this.
-
-
-And yeah, it was probably me who gets nervous about any tags name that suggests these containers are ready for production. 😅
-[o]Once its available via docker hub people will start using it for testing/eval etc. Hence, we should ensure that there is a nice documentation on docker hub how to set this up a smallish environment...
-[p]I disagree to document on Docker Hub how to do these things. The docs on Docker Hub are supposed to document the images it hosts, nothing else. We do provide links to the guide with more information. If you would like to add more hints to such places, please feel free to create a PR against the README.md files (in the base module and src/main/docker).
-[q]could we write a short `curl |sh` script within the documentation to ease the setup?
-[r]That was the intention.
-[s]Yes. Sooner or later we'll create an issue for this.
-[t]+1: keep it simple and then improve further
-[u]Johannes, just to be clear...
-
-
-You prefer building our own custom Solr container rather than using a vanilla Solr container (like we do with PostgreSQL)?
-[v]could this be volume mounted?
-[w]I'm not sure what this question is targeting. If you deploy Solr, you will need to provide a volume for the core data and configuration, as it is stateful.
-
-
-This point is talking about the step before that: providing a configset to create the core from. Such a template could of course be mounted as a volume, but might also be provided by other mechanisms.
-
-
-The underlying idea here is to create a pipeline for generation of the tweaked config and schema. Such a pipeline can be reused to re-configure an existing core as well.
-[x]Could we change the db schema generation to create a working installation with sane default (i.e. move installer/setup into db setup) and then update the documentation on how to overwrite/change config values?
-[y]This would not only remove this setup problem but also remove quite a bit of setup code and also eases the classical setup...
-[z]Are you saying we'd create some database rows with Flyway rather than a curl command?
-
-
-We'd create a row for the dataverseAdmin user, for example?
-
-
-And a row for the root collection? Is that the idea?
-[aa]as said above: Do we really need a setup script? Aren't sane defaults and means to change those enough?
-[ab]The setup script does a lot. Maybe it could melt away over time. Not sure.
-[ac]Also, some people installing Dataverse want to be able to drop in their own setup script at the end.
-
-
-From what I understand, this is what dataverse-docker does.
-
-
-And people like it, I hear.
-[ad]Not really a container related task. Nevertheless, its a good task and should be extended to public/open CI/CD processes with GitHub Actions. (i.e. remove dependencies to IQSS Infrastructure)
-[ae]Why isn't this container related? Right now, we use Jenkins to spin up an EC2 instance and try to deploy to it, running the API test suite afterwards. Using containers, this will become doable inside Github Actions. This smoke test here is about creating a first step to see if the deployment works at all and shall serve as intermediate step towards the full thing in Milestone G.
-[af]This is the magic I'm really looking forward to. Using GitHub Actions to run containers we have built ourselves.
-
-
-If it's easier to get this working sooner with a smaller codebase, we could try it at https://github.com/IQSS/dataverse-people
-[ag]should be part of Milestone A
-[ah]Ok
-[ai]I added it to https://github.com/IQSS/dataverse/issues/9540 which is a milestone A issue. Thanks.
-
-
-As I mentioned in a comment above, this is not a living doc. It's a snapshot. So we'll leave this bullet here.
-[aj]I wish we had this already. I need it for https://github.com/IQSS/dataverse/pull/9541 and I mentioned at https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/testing.20S3
-[ak]Isn't that just adopting AIO/dataverse-docker to use the new images/setup approaches?
-[al]Yes and no. IMHO we drop docker-aio once we have completed all the milestones.
-
-
-What happens to dataverse-docker still needs to be talked through and decided, but this is way beyond scope of these first milestones. Personally, I hope dataverse-docker does not cease to exist, but reuses the upstream work to keep providing value! It makes total sense to have a non-Kubernetes solution to run small production scenarios and this could be the place to be.
-[am]I'm looking forward to fewer files to edit whenever we bump the version of Payara or Solr or PostgreSQL so I'm in favor of eventually deleting code we aren't actively using, which may one day be docker-aio and the Vagrant code. Time will tell, I guess.
-[an]should be more or less the same documentation...
-[ao]Yeah, probably. I think the main differences will be the content of the yml files for docker compose. Instead of -dev.yml it will be -demo.yml (or whatever).
-[ap]See "smoke test" at https://github.com/poikilotherm/test-image-push-flows/blob/3377e519b897ba3bd933692016bd1eefd788f6ec/.github/workflows/app_image.yml#L50
-[aq]I'd rather scope the project to provision of containers and needed docker-compose files for dev, eval, demo and smallish production use cases (basically demo with other configuration). How to run dockerized application in X,Y is already documented and there is no need to rewrite and maintain the documentation again. Further, instead of documentaion of complex/sophisticated deployments there should we rather a `case study` section that shows how x,y,z are deploying the application... (Actually, that would be a nice marketing page for the website... )
-[ar]We'll definitely pull you in, Johannes, before we get to far down this path of writing stuff down. 😁
-[as]Instead of having X deployment approaches I would prefer one which is the default one and is used by most. With that we have synergies and join our forces..
-[at]Sure. I keep hearing from people at Red Hat that they want an operator. I don't have a strong option about Helm charts.
-
-
-This last bullet is just supposed to indicate that containerization has grown up to be ready for production! With a fancy operator and all that. 😁
+* Operator to maintain a Dataverse installation on a Kubernetes, add Helm charts etc.
