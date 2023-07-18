@@ -9,8 +9,9 @@ Containers may be used in very different contexts such as development, testing, 
 They also are a way to run the Dataverse software and its dependencies and integrations in enclosed units on different platforms of operating systems and/or hardware.
 This working group aims to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
-## New features and bug fixes 🎁
+## New features, bug fixes, and use cases 🎁
 
+- 2023-07-18 Frontend end to end tests are using containers. See https://github.com/IQSS/dataverse-frontend/pull/131
 - 2023-06-23 Lots of documentation enhancements, fulfilling milestone A as well See [PR#9584](https://github.com/IQSS/dataverse/pull/9584) and [dev usage][]
 - 2023-06-12 Container-based dev environment for the new React frontend. See [docs](https://github.com/IQSS/dataverse-frontend#local-development-environment), [PR#87](https://github.com/IQSS/dataverse-frontend/pull/87), and [PR#112](https://github.com/IQSS/dataverse-frontend/pull/112).
 - 2023-06-01 Config Baker image to streamline tasks in Dataverse setup like bootstrapping. See [Config Baker docs][] and [PR#9574](https://github.com/IQSS/dataverse/pull/9574).
