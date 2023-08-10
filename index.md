@@ -11,6 +11,7 @@ This working group aims to include many perspectives and use cases to make sure 
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2023-08-04 Images with "alpha" tag are now available (currently equivalent to 5.14): https://hub.docker.com/r/gdcc/dataverse/tags
 - 2023-07-25 Experimental API test runner: <https://github.com/pdurbin/dataverse-api-test-runner>
 - 2023-07-18 Frontend end to end tests are using containers. See <https://github.com/IQSS/dataverse-frontend/pull/131>
 - 2023-06-23 Lots of documentation enhancements, fulfilling milestone A as well See [PR#9584](https://github.com/IQSS/dataverse/pull/9584) and [dev usage][]
