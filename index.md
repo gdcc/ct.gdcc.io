@@ -18,6 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2023-08-28 Images with "unstable" tag updated to Solr 9: <https://github.com/IQSS/dataverse/pull/9787>
 - 2023-08-23 Images with "unstable" tag updated to Java 17: <https://github.com/IQSS/dataverse/pull/9764>
 - 2023-08-11 Images with "unstable" tag updated to Payara 6: <https://github.com/IQSS/dataverse/pull/9685>
 - 2023-08-04 Images with "alpha" tag are now available (currently equivalent to 5.14): <https://hub.docker.com/r/gdcc/dataverse/tags>
