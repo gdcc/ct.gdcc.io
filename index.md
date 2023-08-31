@@ -9,6 +9,13 @@ Containers may be used in very different contexts such as development, testing, 
 They also are a way to run the Dataverse software and its dependencies and integrations in enclosed units on different platforms of operating systems and/or hardware.
 This working group aims to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
+## Where are the images?
+
+- Docker Hub: https://hub.docker.com/u/gdcc
+- GitHub Container Registry (GHCR): https://github.com/orgs/gdcc/packages?ecosystem=container 
+
+That said, to actually make use of the images and understand how they are tagged, you are encouraged to read the Container Guide, either from the [latest](https://guides.dataverse.org/en/latest/container/) release or a [preview](https://preview.guides.gdcc.io/en/develop/container/) of the next release of Dataverse.
+
 ## New features, bug fixes, and use cases 🎁
 
 - 2023-08-23 Images with "unstable" tag updated to Java 17: <https://github.com/IQSS/dataverse/pull/9764>
