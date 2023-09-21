@@ -55,7 +55,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2023-09-21, 09:30 Eastern](https://time.is/compare/0930_21_Sep_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1TQGRWxfoYUjqyGsb1i17ck-RNXdQM0ILPRO2tlSFFH0/edit?usp=sharing))
+- [2023-09-21, 09:30 Eastern](https://time.is/compare/0930_21_Sep_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1TQGRWxfoYUjqyGsb1i17ck-RNXdQM0ILPRO2tlSFFH0/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/rheiJVuXlEHwGDCC5PMyRK0-CDija5VEJZeOH7Z6rB33Sdaza8GABaJhkdJAreZz.iuOwDn_rgWngMvHI))
 - [2023-09-14, 09:30 Eastern](https://time.is/compare/0930_14_Sep_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1uGQ6djp-WlTYHPjvIFEwM66bfz4TjJPSCVrXHHWzb8U/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/62l5eDv_iHaunzLfdf6N9UtXw-vovYSlthdgcNyqHCgkhBOU8uVJu1s_Dm7tZeI3.CZ1nmtOKCXIGYBWj))
 - [2023-09-07, 09:30 Eastern](https://time.is/compare/0930_7_Sep_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1UYg6pJDNWtsAfnYaVxCJtnXjr0r2uZcd3FH_5I5u9Y0/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/OUJDh9XUsYsyF-NcDmx-0siC6rLN_c8C_shCowKB1mjxQ3fqI1tEXlX7uXQ4orbn.jxC2hMKHvwa1MLD-))
 - [2023-08-31, 09:30 Eastern](https://time.is/compare/0930_31_Aug_2023_in_Boston) meeting ([notes](https://docs.google.com/document/d/1rYoYSi7skPBZEsOtddp4YIDpY5IIfcIkglV6yHwuyIM/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/Nsm8SZgE05wuziNoGPA9fYNCPoYH1sKqvgS7omn-nclo6qFTsAn-qu-pqF4JnFuZ.joqMRTV6SqSf5gMl))
