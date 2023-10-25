@@ -18,6 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2023-10-13 The docroot is now configurable so logos can now be uploaded to collections: <https://github.com/IQSS/dataverse/pull/9819>
 - 2023-10-04 Testcontainers for integration testing: <https://github.com/IQSS/dataverse/pull/9273> and <https://dataverse-guide--9273.org.readthedocs.build/en/9273/developers/testing.html#writing-and-using-a-testcontainers-test> and an [example test](https://github.com/IQSS/dataverse/pull/9273/commits/1fb0f588262a92010c5f0afa52d336a707358a6b)
 - 2023-08-28 Images with "unstable" tag updated to Solr 9: <https://github.com/IQSS/dataverse/pull/9787>
 - 2023-08-23 Images with "unstable" tag updated to Java 17: <https://github.com/IQSS/dataverse/pull/9764>
