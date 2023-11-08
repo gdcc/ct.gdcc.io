@@ -56,6 +56,8 @@ As we merge pull requests, we will update "new features" list above. We'll use t
 We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern Time (ET).
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
+
+- [2023-11-08, 09:30 Eastern](https://time.is/compare/0930_8_Nov_2023_in_Boston) meeting [notes](https://docs.google.com/document/d/1kDJDldGVQlQ1bx4mf7g1M1HVSnTfCKeE1qepBzGsUrA/edit?usp=sharing)
 - [2023-11-02, 09:30 Eastern](https://time.is/compare/0930_2_Nov_2023_in_Boston) meeting [notes](https://docs.google.com/document/d/1iE-DHDxWNK6OYNgqnLPo3i6pIH6Danw5rysXL_COjVc/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/-s-zXjWpkUUuxOm18BBXcdJk4OsxzWkEj8JJRJ0qUm2I_22QlpMNtJb8es_o1s0E.nFGj85s7iBqiNSsc)
 - [2023-10-26, 09:30 Eastern](https://time.is/compare/0930_26_Oct_2023_in_Boston) meeting [notes](https://docs.google.com/document/d/1H8hkiDkJAwGkt-cFtLsYQNw6XPE8KoK6ND-tp6xcTPo/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/2K4FdLQ9YySUooxHkBvLUVJ9hN-eKwkmk9ztJ62nCTPhJA2Hn7G-E-iOJTcU4cI-.Nm9FCtqrmONgjBdL)
 - [2023-10-19, 09:30 Eastern](https://time.is/compare/0930_19_Oct_2023_in_Boston) meeting [notes](https://docs.google.com/document/d/1CT2HiulVF3DSto4GBOq6F6VcR724vyEdykY1o60I4xU/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/sXvYnt4ojCIePOafbYCnTp4Jvmuyd3dO6I2sRSP2U-jIkSPZV3q3DSrY2iN3kYLL.AythwksVvTKN3Lmk)
