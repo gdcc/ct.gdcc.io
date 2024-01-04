@@ -59,7 +59,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2024-01-04, 09:30 Eastern](https://time.is/compare/0930_4_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1qaThvkBeIEl4wHeyf3aCffWUtPXylaEv9nYG9gdpXFI/edit?usp=sharing)
+- [2024-01-04, 09:30 Eastern](https://time.is/compare/0930_4_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1qaThvkBeIEl4wHeyf3aCffWUtPXylaEv9nYG9gdpXFI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/n9BjhR2UuvX9ASACPLBAakBA7IRiClCNyV0WcRFMcO8imQY3Mjn_RevzkgNyJYZh.NdEqqz3-7kpBKQhV)
 - No meetings! Happy holidays!
 - [2023-12-14, 09:30 Eastern](https://time.is/compare/0930_14_Dec_2023_in_Boston) meeting [notes](https://docs.google.com/document/d/1xU36giT0_85PlvIoGRWWaacJ2JQ5hyQYmifYmWfyGcQ/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/-e5CHUCBg7STDie4RF7dFx-YHB74pYQewg6hzKUAuNFBTrD_S7UvH0WrlvZ95erw.eVB72Eyc16Y_kcHE)
 - [2023-12-07, 09:30 Eastern](https://time.is/compare/0930_7_Dec_2023_in_Boston) meeting [notes](https://docs.google.com/document/d/1Kk6oKaC2QErEVmuMYc6gTK6Qm7_n_9huiYMjlDRnAYs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/Rx4_3gqVQQhuR8X9Xjln3jrqh1JaJ7U1BAzi8ZuvUgk3obhW0r-XGnhmEhq-YwGn.tCApst97pPkRX8eK)
