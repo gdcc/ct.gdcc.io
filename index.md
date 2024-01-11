@@ -59,6 +59,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
+- [2024-01-18, 09:30 Eastern](https://time.is/compare/0930_18_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1L2GPXGLpcrzMRjLLCFTXTu1NgK9dGX-tXVR_cn4elh0/edit?usp=sharing)
 - [2024-01-11, 09:30 Eastern](https://time.is/compare/0930_11_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1WfUj3fn4RU3ZmdkgmNIbWu2uvD_zU9Y3h3MT5X6TzCI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/WL_WGzPND5JCIwXgoF9eH8PfFXvpu_lInLMuAlQWbdiJ4p-Lo32O4pdNu1BTOf59.j7S0j6rzrBVtDnd9)
 - [2024-01-04, 09:30 Eastern](https://time.is/compare/0930_4_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1qaThvkBeIEl4wHeyf3aCffWUtPXylaEv9nYG9gdpXFI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/n9BjhR2UuvX9ASACPLBAakBA7IRiClCNyV0WcRFMcO8imQY3Mjn_RevzkgNyJYZh.NdEqqz3-7kpBKQhV)
 - No meetings! Happy holidays!
