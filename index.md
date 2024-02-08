@@ -18,6 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2024-02-08 A [tutorial](https://preview.guides.gdcc.io/en/develop/container/running/demo.html) has been written on running Dataverse in containers for demo or evaluation purposes.
 - 2023-12-12 [Dataverse 6.1](https://github.com/IQSS/dataverse/releases/tag/v6.1) our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2023-11-07 Balázs Pataki [figured out](https://github.com/IQSS/dataverse/pull/10088) fast redeploy of Dataverse code to our containers, as [discussed](https://groups.google.com/g/dataverse-community/c/zNBDzSMF2Q0/m/Z-xS6fA2BgAJ) and [documented](https://guides.dataverse.org/en/6.1/container/dev-usage.html#redeploying), and further enhancements are being pursued in <https://github.com/IQSS/dataverse/issues/9590>.
 - 2023-10-13 The docroot is now configurable so logos can now be uploaded to collections: <https://github.com/IQSS/dataverse/pull/9819>
