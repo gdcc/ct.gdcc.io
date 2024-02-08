@@ -18,7 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## New features, bug fixes, and use cases 🎁
 
-- 2024-02-08 A [tutorial](https://preview.guides.gdcc.io/en/develop/container/running/demo.html) has been written on running Dataverse in containers for demo or evaluation purposes.
+- 2024-02-08 A [tutorial]() has been written on running Dataverse in containers for demo or evaluation purposes.
 - 2023-12-12 [Dataverse 6.1](https://github.com/IQSS/dataverse/releases/tag/v6.1) our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2023-11-07 Balázs Pataki [figured out](https://github.com/IQSS/dataverse/pull/10088) fast redeploy of Dataverse code to our containers, as [discussed](https://groups.google.com/g/dataverse-community/c/zNBDzSMF2Q0/m/Z-xS6fA2BgAJ) and [documented](https://guides.dataverse.org/en/6.1/container/dev-usage.html#redeploying), and further enhancements are being pursued in <https://github.com/IQSS/dataverse/issues/9590>.
 - 2023-10-13 The docroot is now configurable so logos can now be uploaded to collections: <https://github.com/IQSS/dataverse/pull/9819>
@@ -60,7 +60,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2024-02-08, 09:30 Eastern](https://time.is/compare/0930_08_Feb_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1yiuwS9Ig4qXnQeN1utPt75MUko6M_wRLHIfrCWQM_ZQ/edit?usp=sharing)
+- [2024-02-08, 09:30 Eastern](https://time.is/compare/0930_08_Feb_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1yiuwS9Ig4qXnQeN1utPt75MUko6M_wRLHIfrCWQM_ZQ/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/iv-JG_cAbTtd3FR7EiFlxwBMT_YhpjoBYW59N1BBUW3utC9KYKYHYXC1pp5iTZmC.NpZdWLEifKZlOjQW)
 - [2024-02-01, 09:30 Eastern](https://time.is/compare/0930_01_Feb_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/18mmWOTLg1Mrg57843PsTJg99vHsNuLSK2krk1enwRbI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/7G5LY-azwKMnZQGEgw31M7v3J6XkDULO2ujw0fWl6Vb9U1A9yIP6kKZ3A9FNrH3A.j8ZLBvwMxP2i2INU)
 - [2024-01-25, 09:30 Eastern](https://time.is/compare/0930_25_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1Rw-TqyojblqPKYPGPXrhZUPzuyn6yT-pztTiFfc7a3I/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/rDo_V6heO9vo6UDIVhm0mnnsdTDXqA4lNX72lCjhGWrmOEpZttM13CsBceAFXkvr.SgokYNw-AoOACtSm)
 - [2024-01-18, 09:30 Eastern](https://time.is/compare/0930_18_Jan_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1L2GPXGLpcrzMRjLLCFTXTu1NgK9dGX-tXVR_cn4elh0/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/EUOqzaq4NzsH4N8xX7kg9II8w292MEB6eqbyzPMlZOACsErKV-Z20hHBj1HerFH2.bGFh04EdU1Qnu9ic)
