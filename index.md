@@ -60,7 +60,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2024-03-07, 08:00 CST](https://time.is/compare/0800_7_Mar_2024_in_Mexico_City) meeting [notes](https://docs.google.com/document/d/1HX_0_ZjKXbTIRcVr1xuGOLDvhU4aUjL7NB7qZH9LF0k/edit?usp=sharing)
+- [2024-03-07, 08:00 CST](https://time.is/compare/0800_7_Mar_2024_in_Mexico_City) meeting [notes](https://docs.google.com/document/d/1HX_0_ZjKXbTIRcVr1xuGOLDvhU4aUjL7NB7qZH9LF0k/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/GP2R9any02LK8GtEmt0kD7SaTxVkXU65nye9OA-zZG4wFAAOMtvIIPM1iKY1cyCa.emyFmld2IXX_aTf_)
 - [2024-02-29, 09:30 Eastern](https://time.is/compare/0930_29_Feb_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1OcalANOmDqnLf4-DYmeZoS2H2EhxbhY88GE8108HaWg/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/W8MF0tqhZPWaKvLyQ3Esz4NtCY5QtyWtRlLgUNYL7rom5xm09PfRuw_W387Hx5c.E-pIGVMbIXo4Xi8i)
 - [2024-02-22, 09:30 Eastern](https://time.is/compare/0930_22_Feb_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/18W4cUhEzthjGfbUtWSDm18MKflboo_qIIArRN61zmg4/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/WFDHJXmVI5-9NV_VkHPho78RYrZm49lytAVhDGgZDGFhhs2A0rkfM6kFacx9bgr5.nedO9pXBRPfbRNNz)
 - [2024-02-15, 09:30 Eastern](https://time.is/compare/0930_15_Feb_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1eKZANop8IXgM2s6h_UQ14bAO2R0Xn_xo0wEE-WdfKVg/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/rbVGMls8xXqlLj5jiHodxh1gNJCdR3NVHDVnZQmzMuAiGXEcP12Eov1d0SRrsOFt.THA-8LvzLWEiRQvZ)
