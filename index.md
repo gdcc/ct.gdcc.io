@@ -18,6 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2024-03-38 Configuration of SMTP using MPCONFIG: <https://github.com/IQSS/dataverse/pull/9939>
 - 2024-02-08 A [tutorial](https://groups.google.com/g/dataverse-community/c/GmXMMJe3Mr0/m/gP_Z9odKAQAJ) has been written on running Dataverse in containers for demo or evaluation purposes.
 - 2023-12-12 [Dataverse 6.1](https://github.com/IQSS/dataverse/releases/tag/v6.1) our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2023-11-07 Balázs Pataki [figured out](https://github.com/IQSS/dataverse/pull/10088) fast redeploy of Dataverse code to our containers, as [discussed](https://groups.google.com/g/dataverse-community/c/zNBDzSMF2Q0/m/Z-xS6fA2BgAJ) and [documented](https://guides.dataverse.org/en/6.1/container/dev-usage.html#redeploying), and further enhancements are being pursued in <https://github.com/IQSS/dataverse/issues/9590>.
@@ -46,11 +47,11 @@ We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB
 
 - Milestone A: For backend (Java) developers (✅)
 - Milestone B: For API client testing (✅)
-- Milestone C: For an integration/frontend developer (w/o Java) (70%)
-- Milestone D: Improve developer experience (10%)
-- Milestone E: Demo or evaluation (0%)
-- Milestone F: Demo with some configurability (0%)
-- Milestone G: Run API tests in containers (0%)
+- Milestone C: For an integration/frontend developer (w/o Java) (✅)
+- Milestone D: Improve developer experience (80%)
+- Milestone E: Demo or evaluation (60%)
+- Milestone F: Demo with some configurability (20%)
+- Milestone G: Run API tests in containers (40%)
 
 As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
 
