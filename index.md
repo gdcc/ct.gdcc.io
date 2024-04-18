@@ -62,6 +62,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
+- [2024-04-25, 09:30 Eastern](https://time.is/compare/0930_25_Apr_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1k0H1Zw2FM7YtawC5QiEyU9FHFAf1__hD7NM04xH2SkM/edit?usp=sharing)
 - [2024-04-18, 09:30 Eastern](https://time.is/compare/0930_18_Apr_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/13SrRs_jEYDMqnxsztMBTor9J2XsC8Q6ZCqlOLhQOxuk/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/TtV8_6U29xMHGTwSG9p9h0hw-mJcnh9DeD1yXJhlUTssNyOYcxnsrKvYu1bhrHJS.wGRBdo77R2XYJwSw)
 - [2024-04-11, 09:30 Eastern](https://time.is/compare/0930_11_Apr_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1toiFxJKGvrYMy9KrW9GZ4U6FLGhMaCipJ9ggtvZFwgc/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/LtMO_BjkgEHvqdgjnCv9V0ko6_I3L-VZ-wZapO6JiZf9aFRSs7tkDP182plACuus.fnTfrsTArCtjKFng)
 - 2024-04-04 no meeting! Phil, Oliver, and Jan speaking at [Distribits](https://groups.google.com/g/dataverse-community/c/huhI8TyE8a0/m/4ey2-TIlAAAJ)
