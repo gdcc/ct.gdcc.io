@@ -12,7 +12,7 @@ This working group aims to include many perspectives and use cases to make sure 
 ## Where are the images?
 
 - Docker Hub: <https://hub.docker.com/u/gdcc>
-- GitHub Container Registry (GHCR): <https://github.com/orgs/gdcc/packages?ecosystem=container> 
+- GitHub Container Registry (GHCR): <https://github.com/orgs/gdcc/packages?ecosystem=container>
 
 That said, to actually make use of the images and understand how they are tagged, you are encouraged to read the Container Guide, either from the [latest](https://guides.dataverse.org/en/latest/container/) release or a [preview](https://preview.guides.gdcc.io/en/develop/container/) of the next release of Dataverse.
 
