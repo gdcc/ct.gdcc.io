@@ -62,7 +62,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2024-07-25, 09:30 Eastern](https://time.is/compare/0930_25_July_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/13Zxg_iFiTOYfIJkUSmb7ytL-OeIc2vPGCuoOvtPAd6w/edit?usp=sharing)
+- [2024-07-25, 09:30 Eastern](https://time.is/compare/0930_25_July_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/13Zxg_iFiTOYfIJkUSmb7ytL-OeIc2vPGCuoOvtPAd6w/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qe2z_Zw-ZzmIRHraO0tDY6DNhe6j7d6ee8nszDBwqr-DEUNLFe081r7YJaxVeTlT.87dxNgGvYGs70Z55)
 - [2024-07-18, 09:30 Eastern](https://time.is/compare/0930_18_July_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1mdziHDJTIZGgI1ks8HFNTkfEfQqfsIRmNh4ufF516pk/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/6YV8RWVgXNtANjLIpnGnL9tKN4AeMWbBjy_A6zzJu0dUgM48pOtYN8WU_J0mRSIl.9-ja80A1IHfF8cUW)
 - vacations and summer fun 🏖️
 - [2024-06-06, 09:30 Eastern](https://time.is/compare/0930_06_June_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/12hGMZLGg-kGQZVM2BTfDJxpihpLDAZtQ5_n2iWYlDFQ/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/B1DkF7Zio9awDbTAurLhdkNyP8PcuF2cQdjCer5FCb91TFchBKgWDXzf1ARmupJT.fu7WmkZyrzq2SL_Q)
