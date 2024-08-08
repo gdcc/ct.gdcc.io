@@ -62,6 +62,7 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
+- [2024-08-15, 09:30 Eastern](https://time.is/compare/0930_15_Aug_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1DvMPqRwPROttchBRz2oOkeFpPY-ruO9tYHkbkEKxUbM/edit?usp=sharing)
 - [2024-08-08, 09:30 Eastern](https://time.is/compare/0930_8_Aug_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1SdHpLCWWQRH0gqURbv1S_7JTIgWgu0hmfKxkee9Ad2M/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/xuNwKGvGUALyTcz17n3uA4FJVn4JbLFm5W5c23sEbO-41fDrkzZiArmUtS09Z4oK.UvQ2p4AW8sXRWV1C)
 - [2024-08-01, 09:30 Eastern](https://time.is/compare/0930_1_Aug_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/1nm3BjpUS84jvh4bhDs3OUrA6wGHaNEfgi2MGZ4_1-qU/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/TYufTkjgGRtXohXUjwvNrRr69rdP9ptxCh7zpAaNyRs64IIEib4BOpzeiE92Qd2u.wO4AzDin8vVJCWf4)
 - [2024-07-25, 09:30 Eastern](https://time.is/compare/0930_25_July_2024_in_Boston) meeting [notes](https://docs.google.com/document/d/13Zxg_iFiTOYfIJkUSmb7ytL-OeIc2vPGCuoOvtPAd6w/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qe2z_Zw-ZzmIRHraO0tDY6DNhe6j7d6ee8nszDBwqr-DEUNLFe081r7YJaxVeTlT.87dxNgGvYGs70Z55)
