@@ -18,6 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2024-07-03 [Dataverse 6.3](https://github.com/IQSS/dataverse/releases/tag/v6.3) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-04-02 [Dataverse 6.2](https://github.com/IQSS/dataverse/releases/tag/v6.2) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-03-38 Configuration of SMTP using MPCONFIG: <https://github.com/IQSS/dataverse/pull/9939>
 - 2024-02-08 A [tutorial](https://groups.google.com/g/dataverse-community/c/GmXMMJe3Mr0/m/gP_Z9odKAQAJ) has been written on running Dataverse in containers for demo or evaluation purposes.
