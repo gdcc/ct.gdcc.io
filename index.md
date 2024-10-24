@@ -16,47 +16,6 @@ This working group aims to include many perspectives and use cases to make sure 
 
 That said, to actually make use of the images and understand how they are tagged, you are encouraged to read the Container Guide, either from the [latest](https://guides.dataverse.org/en/latest/container/) release or a [preview](https://preview.guides.gdcc.io/en/develop/container/) of the next release of Dataverse.
 
-## New features, bug fixes, and use cases 🎁
-
-- 2024-07-03 [Dataverse 6.3](https://github.com/IQSS/dataverse/releases/tag/v6.3) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
-- 2024-04-02 [Dataverse 6.2](https://github.com/IQSS/dataverse/releases/tag/v6.2) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
-- 2024-03-38 Configuration of SMTP using MPCONFIG: <https://github.com/IQSS/dataverse/pull/9939>
-- 2024-02-08 A [tutorial](https://groups.google.com/g/dataverse-community/c/GmXMMJe3Mr0/m/gP_Z9odKAQAJ) has been written on running Dataverse in containers for demo or evaluation purposes.
-- 2023-12-12 [Dataverse 6.1](https://github.com/IQSS/dataverse/releases/tag/v6.1) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
-- 2023-11-07 Balázs Pataki [figured out](https://github.com/IQSS/dataverse/pull/10088) fast redeploy of Dataverse code to our containers, as [discussed](https://groups.google.com/g/dataverse-community/c/zNBDzSMF2Q0/m/Z-xS6fA2BgAJ) and [documented](https://guides.dataverse.org/en/6.1/container/dev-usage.html#redeploying), and further enhancements are being pursued in <https://github.com/IQSS/dataverse/issues/9590>.
-- 2023-10-13 The docroot is now configurable so logos can now be uploaded to collections: <https://github.com/IQSS/dataverse/pull/9819>
-- 2023-10-04 Testcontainers for integration testing: <https://github.com/IQSS/dataverse/pull/9273> and <https://dataverse-guide--9273.org.readthedocs.build/en/9273/developers/testing.html#writing-and-using-a-testcontainers-test> and an [example test](https://github.com/IQSS/dataverse/pull/9273/commits/1fb0f588262a92010c5f0afa52d336a707358a6b)
-- 2023-08-28 Images with "unstable" tag updated to Solr 9: <https://github.com/IQSS/dataverse/pull/9787>
-- 2023-08-23 Images with "unstable" tag updated to Java 17: <https://github.com/IQSS/dataverse/pull/9764>
-- 2023-08-11 Images with "unstable" tag updated to Payara 6: <https://github.com/IQSS/dataverse/pull/9685>
-- 2023-08-04 Images with "alpha" tag are now available (currently equivalent to 5.14): <https://hub.docker.com/r/gdcc/dataverse/tags>
-- 2023-07-25 Experimental API test runner: <https://github.com/pdurbin/dataverse-api-test-runner>
-- 2023-07-18 Frontend end to end tests are using containers. See <https://github.com/IQSS/dataverse-frontend/pull/131>
-- 2023-06-23 Lots of documentation enhancements, fulfilling milestone A as well See [PR#9584](https://github.com/IQSS/dataverse/pull/9584) and [dev usage][]
-- 2023-06-12 Container-based dev environment for the new React frontend. See [docs](https://github.com/IQSS/dataverse-frontend#local-development-environment), [PR#87](https://github.com/IQSS/dataverse-frontend/pull/87), and [PR#112](https://github.com/IQSS/dataverse-frontend/pull/112).
-- 2023-06-01 Config Baker image to streamline tasks in Dataverse setup like bootstrapping. See [Config Baker docs][] and [PR#9574](https://github.com/IQSS/dataverse/pull/9574).
-- 2023-05-08 Enable publishing preview application images to ghcr.io for pull requests from forks (`/push-image`). See [PR#9575](https://github.com/IQSS/dataverse/pull/9575) for details.
-- 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See [PR#9447](https://github.com/IQSS/dataverse/pull/9447) and [related discussion](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry).
-- 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See [PR#8828](https://github.com/IQSS/dataverse/pull/8828).
-- 2023-03-20 If you have Java and Maven installed, you can spin up Dataverse in Docker! See [dev usage][] and [PR#9439](https://github.com/IQSS/dataverse/pull/9439).
-
-[config baker docs]: https://preview.guides.gdcc.io/en/develop/container/configbaker-image.html
-[dev usage]: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
-
-## Roadmap
-
-We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) as a series of milestone during the 2023-04-18 [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
-
-- Milestone A: For backend (Java) developers (✅)
-- Milestone B: For API client testing (✅)
-- Milestone C: For an integration/frontend developer (w/o Java) (✅)
-- Milestone D: Improve developer experience (80%)
-- Milestone E: Demo or evaluation (60%)
-- Milestone F: Demo with some configurability (20%)
-- Milestone G: Run API tests in containers (40%)
-
-As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
-
 ## Working group meetings
 
 We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern Time (ET).
@@ -139,6 +98,48 @@ The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJI
 - [2023-03-30, 14:00 UTC](https://time.is/compare/1400_30_Mar_2023_in_UTC) meeting [notes](https://docs.google.com/document/d/1Z1PUOp19zJVEGNcFsV7tqPErWQnkVV6qkDo5ZQUHMVM/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/HsGlcXqaY-PR0pCWkZFzmmP6zus5pdXq4AlKhM4EgRTF-3OEB74wZhv7e7dueebp.RsriUxxBS4KYdSa3)
 - [2023-03-23, 14:00 UTC](https://time.is/compare/1400_23_Mar_2023_in_UTC) meeting [notes](https://docs.google.com/document/d/1UmKajGpOH8tkvyEbgIYvHDKZBAMfdvCp8AZC0ZEEtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kviiT4GO2zruomf0T-QHCWqDksK6jT525bPrENNGWf01MhLtZOS0mU3b6Gw-_usp.CnoqlfsFqvOhXEyY)
 - [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC) kickoff (during the [Dataverse Community Call](https://dataverse.org/community-calls)) [notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#), [recording](https://harvard.zoom.us/rec/share/qb3gd3pboooRa9UHyLyIvPfxVgoahbGWFaxLdJDO2VD-MGMqWnZIsJjc3Rxao6Wu.-Y-CiwvgRwVj8v6c)
+
+
+## New features, bug fixes, and use cases 🎁
+
+- 2024-07-03 [Dataverse 6.3](https://github.com/IQSS/dataverse/releases/tag/v6.3) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
+- 2024-04-02 [Dataverse 6.2](https://github.com/IQSS/dataverse/releases/tag/v6.2) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
+- 2024-03-38 Configuration of SMTP using MPCONFIG: <https://github.com/IQSS/dataverse/pull/9939>
+- 2024-02-08 A [tutorial](https://groups.google.com/g/dataverse-community/c/GmXMMJe3Mr0/m/gP_Z9odKAQAJ) has been written on running Dataverse in containers for demo or evaluation purposes.
+- 2023-12-12 [Dataverse 6.1](https://github.com/IQSS/dataverse/releases/tag/v6.1) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
+- 2023-11-07 Balázs Pataki [figured out](https://github.com/IQSS/dataverse/pull/10088) fast redeploy of Dataverse code to our containers, as [discussed](https://groups.google.com/g/dataverse-community/c/zNBDzSMF2Q0/m/Z-xS6fA2BgAJ) and [documented](https://guides.dataverse.org/en/6.1/container/dev-usage.html#redeploying), and further enhancements are being pursued in <https://github.com/IQSS/dataverse/issues/9590>.
+- 2023-10-13 The docroot is now configurable so logos can now be uploaded to collections: <https://github.com/IQSS/dataverse/pull/9819>
+- 2023-10-04 Testcontainers for integration testing: <https://github.com/IQSS/dataverse/pull/9273> and <https://dataverse-guide--9273.org.readthedocs.build/en/9273/developers/testing.html#writing-and-using-a-testcontainers-test> and an [example test](https://github.com/IQSS/dataverse/pull/9273/commits/1fb0f588262a92010c5f0afa52d336a707358a6b)
+- 2023-08-28 Images with "unstable" tag updated to Solr 9: <https://github.com/IQSS/dataverse/pull/9787>
+- 2023-08-23 Images with "unstable" tag updated to Java 17: <https://github.com/IQSS/dataverse/pull/9764>
+- 2023-08-11 Images with "unstable" tag updated to Payara 6: <https://github.com/IQSS/dataverse/pull/9685>
+- 2023-08-04 Images with "alpha" tag are now available (currently equivalent to 5.14): <https://hub.docker.com/r/gdcc/dataverse/tags>
+- 2023-07-25 Experimental API test runner: <https://github.com/pdurbin/dataverse-api-test-runner>
+- 2023-07-18 Frontend end to end tests are using containers. See <https://github.com/IQSS/dataverse-frontend/pull/131>
+- 2023-06-23 Lots of documentation enhancements, fulfilling milestone A as well See [PR#9584](https://github.com/IQSS/dataverse/pull/9584) and [dev usage][]
+- 2023-06-12 Container-based dev environment for the new React frontend. See [docs](https://github.com/IQSS/dataverse-frontend#local-development-environment), [PR#87](https://github.com/IQSS/dataverse-frontend/pull/87), and [PR#112](https://github.com/IQSS/dataverse-frontend/pull/112).
+- 2023-06-01 Config Baker image to streamline tasks in Dataverse setup like bootstrapping. See [Config Baker docs][] and [PR#9574](https://github.com/IQSS/dataverse/pull/9574).
+- 2023-05-08 Enable publishing preview application images to ghcr.io for pull requests from forks (`/push-image`). See [PR#9575](https://github.com/IQSS/dataverse/pull/9575) for details.
+- 2023-04-25 Application images (Dataverse, not just the base image) are being pushed to registries (Docker Hub and GitHub Container Registry). See [PR#9447](https://github.com/IQSS/dataverse/pull/9447) and [related discussion](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/topic/push.20to.20registry).
+- 2023-04-04 DOI JVM options can now be configured using MPCONFIG. See [PR#8828](https://github.com/IQSS/dataverse/pull/8828).
+- 2023-03-20 If you have Java and Maven installed, you can spin up Dataverse in Docker! See [dev usage][] and [PR#9439](https://github.com/IQSS/dataverse/pull/9439).
+
+[config baker docs]: https://preview.guides.gdcc.io/en/develop/container/configbaker-image.html
+[dev usage]: https://preview.guides.gdcc.io/en/develop/container/dev-usage.html
+
+## Roadmap
+
+We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) as a series of milestone during the 2023-04-18 [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
+
+- Milestone A: For backend (Java) developers (✅)
+- Milestone B: For API client testing (✅)
+- Milestone C: For an integration/frontend developer (w/o Java) (✅)
+- Milestone D: Improve developer experience (80%)
+- Milestone E: Demo or evaluation (60%)
+- Milestone F: Demo with some configurability (20%)
+- Milestone G: Run API tests in containers (40%)
+
+As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
 
 ## Get in touch
 
