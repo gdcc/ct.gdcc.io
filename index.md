@@ -22,6 +22,8 @@ We welcome anyone to join our meetings! We meet on the first Thursday of the mon
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
+We try to keep the info below accurate but you can check the [meetings](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/meetings) topic in Zulip for reminders and any last minute changes.
+
 - [2025-03-06, 09:30 Eastern](https://time.is/compare/0930_06_Mar_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1D0wVno-7tZhmMrNDYNVvwgjtp4DR7p6JCp8yKuyzoJw/edit?usp=sharing)
 - 2025-02-27 skipping!
 - 2025-02-20 skipping! ⛷️
