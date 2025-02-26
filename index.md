@@ -22,7 +22,8 @@ We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern T
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2025-02-27, 09:30 Eastern](https://time.is/compare/0930_27_Feb_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1D0wVno-7tZhmMrNDYNVvwgjtp4DR7p6JCp8yKuyzoJw/edit?usp=sharing)
+- [2025-03-06, 09:30 Eastern](https://time.is/compare/0930_06_Mar_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1D0wVno-7tZhmMrNDYNVvwgjtp4DR7p6JCp8yKuyzoJw/edit?usp=sharing)
+- 2025-02-27 skipping!
 - 2025-02-20 skipping! ⛷️
 - 2025-02-13 skipping!
 - [2025-02-06, 09:30 Eastern](https://time.is/compare/0930_06_Feb_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1gNrx8AKjZxrPLIwFV-8ue9_XstPWxsU76pWRg67KVbc/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/6Hr4lsFVKtuddTgwwK_03fLrSGz-vLGuF8lDAN1gWvTMVBwF-LCxJqGcJ-kFHyB7.890LtQasKQMw2Myr)
