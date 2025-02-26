@@ -18,7 +18,7 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## Working group meetings
 
-We welcome anyone to join our meetings! We meet on Thursdays at 9:30am Eastern Time (ET).
+We welcome anyone to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET).
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
