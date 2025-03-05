@@ -116,7 +116,7 @@ We try to keep the info below accurate but you can check the [meetings](https://
 ## New features, bug fixes, and use cases 🎁
 
 - 2024-12-12 [Dataverse 6.5](https://github.com/IQSS/dataverse/releases/tag/v6.5) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
-- 2024-11-15 File previewers are available in the "demo or eval" environment: https://github.com/IQSS/dataverse/pull/11025
+- 2024-11-15 File previewers are available in the "demo or eval" environment: <https://github.com/IQSS/dataverse/pull/11025>
 - 2024-09-30 [Dataverse 6.4](https://github.com/IQSS/dataverse/releases/tag/v6.4) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-07-03 [Dataverse 6.3](https://github.com/IQSS/dataverse/releases/tag/v6.3) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-04-02 [Dataverse 6.2](https://github.com/IQSS/dataverse/releases/tag/v6.2) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
