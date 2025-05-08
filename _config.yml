@@ -1,5 +1,5 @@
 locale: "en-US"
-title: "Containerization Working Group"
+title: "Dataverse Containerization Working Group"
 description: "The Dataverse Containerization Working Group aims to run the Dataverse software within containers, useful for many different scenarios from development to production."
 github: [metadata]
 plugins:

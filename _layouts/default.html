@@ -19,10 +19,14 @@
          #swcbanner {
             background-image: url(imgs/webb.png); /*Source: www.toptal.com, thanks!*/
             background-repeat: repeat; 
-            padding-top: 50px;
-            padding-bottom: 60px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             margin: 0 0 0 0;
             position: relative;
+         }
+         #hero {
+            padding-left: 10px;
+            padding-right: 10px;
          }
          #grad{
             background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
@@ -63,7 +67,7 @@
          }
          .branding-left {
          float: left;
-         margin: 10px 0 0 -30px;
+         margin: 10px 0 0 0px;
          position: relative;
          z-index: 1;
          }
@@ -91,7 +95,7 @@
          position: relative;
          }
          .main-text {
-         border-top: 6px solid #e1e1e1;
+         /* border-top: 6px solid #e1e1e1; */
          }
          #narrow-text {
             max-width: 90%;
@@ -114,32 +118,20 @@
       <!-- Page content -->
       <div class="header">
          <div class="content">
-            <div class="branding-left"><a href="http://www.harvard.edu/" >
-               <img src="imgs/harvard-logo.png" width="235" height="32" alt="University Logo" /></a>
+            <div class="branding-left"><a href="https://www.gdcc.io" >
+               <img src="imgs/gdcc_v2_lr_tb-07_homepage.png" height="28" alt="GDCC Logo" /></a>
             </div>
-            <div class="branding-right"><a href="http://www.harvard.edu/" style="color: #FFF">HARVARD.EDU</a></div>
+            <div class="branding-right"><a href="https://www.gdcc.io" style="color: #FFF">www.gdcc.io</a></div>
          </div>
       </div>
+      <div>
+         <h1>{{ site.title }}</h1>
+      </div>
+      <div id="swcbanner">
+         <div id="hero"><img src="imgs/building-blocks.svg"></div>
+      </div>
       <div class="content">
-         <div style="padding-top:15px; height: 135px;">
-            <div style="width:220px; height: 135px; float:left; ">
-               <a href="http://dataversecommunity.global/">
-               <img src="imgs/gdcc_v2_lr_tb-07_homepage.png" style="max-width:100%; margin-top: 10px;"/>
-               </a>
-            </div>
-            <div style="margin-left:220px; height: 135px; display: table-cell; vertical-align: middle;">
-               <h1 style="font-family: Georgia,Baskerville,Palatino,'Palatino Linotype','Book Antiqua','Times New Roman',serif; margin: 0; line-height: 1.2; text-align: left;">
-                  <a href="http://dataversecommunity.global/" style="text-decoration: none; font-size: 30px; color: #111111; ">The Global Dataverse Community Consortium</a>
-               </h1>
-               <h2 style="font-size: 24px; font-style: italic; text-align: left; line-height: 28px; margin: 0;">Supporting Dataverse Repositories Around the World</h2>
-               <p></p>
-            </div>
-         </div>
          <div class="main-text">
-            <div id="swcbanner">
-               <h1>{{ site.title }}</h1>
-            </div>
-            <img src="imgs/building-blocks.svg">
             <div id="narrow-text">
             {{ content }}
             </div>
