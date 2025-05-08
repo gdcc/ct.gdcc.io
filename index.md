@@ -124,12 +124,15 @@ We try to keep the info below accurate but you can check the [meetings](https://
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2025-03-20 File previewers have better docs: <https://github.com/IQSS/dataverse/pull/11181>
+- 2025-03-20 Docs on loading metadata blocks and adjusting Solr to use them: <https://github.com/IQSS/dataverse/pull/11204>
 - 2025-03-18 [Dataverse 6.6](https://github.com/IQSS/dataverse/releases/tag/v6.6) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2025-03-10 SameSite cookie attribute set to "Lax": <https://github.com/IQSS/dataverse/pull/11210>
 - 2025-02-18 Docs added on customizing the root collection: <https://github.com/IQSS/dataverse/pull/11201>
 - 2025-01-20 Container demo switched from FAKE DOI provider to Perma: <https://github.com/IQSS/dataverse/pull/11108>
 - 2024-12-12 [Dataverse 6.5](https://github.com/IQSS/dataverse/releases/tag/v6.5) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-11-15 File previewers are available in the "demo or eval" environment: <https://github.com/IQSS/dataverse/pull/11025>
+- 2024-10-21 Docs on how to set up languages (English, French, etc.): <https://github.com/IQSS/dataverse/pull/10940>
 - 2024-09-30 [Dataverse 6.4](https://github.com/IQSS/dataverse/releases/tag/v6.4) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-07-03 [Dataverse 6.3](https://github.com/IQSS/dataverse/releases/tag/v6.3) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-04-02 [Dataverse 6.2](https://github.com/IQSS/dataverse/releases/tag/v6.2) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
