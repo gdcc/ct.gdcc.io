@@ -30,6 +30,11 @@ We try to keep the info below accurate but you can check the [meetings](https://
 - [2025-06-05, 09:30 Eastern](https://time.is/compare/0930_05_June_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1eXb7gfcJ8Y-Y7WFOolQKbVTGuKStTAV3WVfXC6xVdx0/edit?usp=sharing)
 - [2025-05-08, 09:30 Eastern](https://time.is/compare/0930_08_May_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1-sq4fMJZ_f9sOQrhDdNF5FTJ5c212BBaUoF8foh4B20/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/d2xoUvd7VWY7fYG39zgXvLNP6bGj3_n6owTBCA-sbGy5oBgFDiekvkGRLJ337ZM.uza8DW5aWBcYhsbS)
 - [2025-04-03, 09:30 Eastern](https://time.is/compare/0930_04_Apr_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1eg_XzwSsSDRNj_T-Myc7D6xOwyXZOnIwQwrpAmGvrpE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/4l5oA1ELzDwrDo2mj2ZUPUIhup0tb0mCxEcz23S_SEmOOpMEyj2uVNeFGnkxRbH1.Aqymbs34Mx0ogS-j)
+
+<details>
+  <summary>Older meetings</summary>
+  <div markdown=1>
+
 - [2025-03-06, 09:30 Eastern](https://time.is/compare/0930_06_Mar_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1D0wVno-7tZhmMrNDYNVvwgjtp4DR7p6JCp8yKuyzoJw/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/pE2FY-Su_JiQfgWX20SZZkhVVg4VXOCUKAhMkmBJyEnoU-KlxF5lHo66vxBoQrAc.d4OtRLin4BGYC0NH)
 - [2025-02-06, 09:30 Eastern](https://time.is/compare/0930_06_Feb_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1gNrx8AKjZxrPLIwFV-8ue9_XstPWxsU76pWRg67KVbc/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/6Hr4lsFVKtuddTgwwK_03fLrSGz-vLGuF8lDAN1gWvTMVBwF-LCxJqGcJ-kFHyB7.890LtQasKQMw2Myr)
 - [2025-01-30, 09:30 Eastern](https://time.is/compare/0930_30_Jan_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1iNbb6SVCBKOQGmDaRmTyX2hwInKQGWJxHpDpV9MP2rI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/eG-j-ptXsmTsY3LKucSNBXIMu_zK9zFY5U14z_C-chl9fDEdudElIV1Id50D11Hg.CJRt8PV7mFgZwv_L)
@@ -114,7 +119,8 @@ We try to keep the info below accurate but you can check the [meetings](https://
 - [2023-03-30, 14:00 UTC](https://time.is/compare/1400_30_Mar_2023_in_UTC) meeting [notes](https://docs.google.com/document/d/1Z1PUOp19zJVEGNcFsV7tqPErWQnkVV6qkDo5ZQUHMVM/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/HsGlcXqaY-PR0pCWkZFzmmP6zus5pdXq4AlKhM4EgRTF-3OEB74wZhv7e7dueebp.RsriUxxBS4KYdSa3)
 - [2023-03-23, 14:00 UTC](https://time.is/compare/1400_23_Mar_2023_in_UTC) meeting [notes](https://docs.google.com/document/d/1UmKajGpOH8tkvyEbgIYvHDKZBAMfdvCp8AZC0ZEEtWs/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kviiT4GO2zruomf0T-QHCWqDksK6jT525bPrENNGWf01MhLtZOS0mU3b6Gw-_usp.CnoqlfsFqvOhXEyY)
 - [2023-03-21, 15:00 UTC](https://time.is/compare/1500_21_Mar_2023_in_UTC) kickoff (during the [Dataverse Community Call](https://dataverse.org/community-calls)) [notes](https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit#), [recording](https://harvard.zoom.us/rec/share/qb3gd3pboooRa9UHyLyIvPfxVgoahbGWFaxLdJDO2VD-MGMqWnZIsJjc3Rxao6Wu.-Y-CiwvgRwVj8v6c)
-
+</div>
+</details>
 
 ## New features, bug fixes, and use cases 🎁
 
