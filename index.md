@@ -20,13 +20,11 @@ That said, to actually make use of the images and understand how they are tagged
 
 ## Working group meetings
 
-We welcome anyone to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET).
-
-Note below that we have an in-person meeting coming up!
+All are welcome to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET). **Note below that we have an in-person meeting coming up!**
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-We try to keep the info below accurate but you can check the [meetings](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/meetings) topic in Zulip for reminders and any last minute changes.
+We try to keep the meeting times below accurate but you can check the [meetings](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/meetings) topic in Zulip for reminders and any last minute changes.
 
 - [2025-06-10, 14:00 Eastern](https://time.is/compare/1400_10_June_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1XZymsjj7EcFagjflYvv7Tn3RCGqGipe3XXOw6to4W2c/edit?usp=sharing), in-person at the [2025 Dataverse Community Meeting](https://dcm2025.hsites.harvard.edu) in Chapel Hill, North Carolina, USA!
 - [2025-06-05, 09:30 Eastern](https://time.is/compare/0930_05_June_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1eXb7gfcJ8Y-Y7WFOolQKbVTGuKStTAV3WVfXC6xVdx0/edit?usp=sharing)
