@@ -169,17 +169,26 @@ If you can't make it to a working group meeting, no worries! Please join us in t
 
 ## Roadmap
 
-We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) as a series of milestone during the 2023-04-18 [Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
+We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) with a series of milestones during the [2023-04-18 Dataverse Community Call](https://dataverse.org/community-calls) ([notes](https://docs.google.com/document/d/1TmvLrvDJ2dtPN6e6Iu4RT-qFQo4XeR5Tn-TGhvB9mFE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qQJLuOQYIX5FA5Fsandjuu3L4qIgmV9AKOZ0tZu3ZPcdDmcVw-2D7qn9VcCAojIk.PHPDAOdOWYI_hXCr)):
 
 - Milestone A: For backend (Java) developers (✅)
 - Milestone B: For API client testing (✅)
 - Milestone C: For an integration/frontend developer (w/o Java) (✅)
 - Milestone D: Improve developer experience (80%)
+  - Migrate storage configuration to MPCONFIG (milestone D) [#9998](https://github.com/IQSS/dataverse/issues/9998)
 - Milestone E: Demo or evaluation (60%)
-- Milestone F: Demo with some configurability (20%)
+  - Switch container demo tutorial from dev to demo persona (milestone E) [#10538](https://github.com/IQSS/dataverse/issues/10538)
+  - Consider Traefik or similar for HTTPS etc. (milestone E) [#10359](https://github.com/IQSS/dataverse/issues/10359)
+- Milestone F: Demo with some configurability (50%)
+  - explain in container demo tutorial how to set a custom footer, header, etc. (milestone F) [#10539](https://github.com/IQSS/dataverse/issues/10539)
+  - explain in container demo tutorial how to enable external controlled vocabularies (milestone F) [#10540](https://github.com/IQSS/dataverse/issues/10540)
 - Milestone G: Run API tests in containers (40%)
+  - Migrate leftover hardcoded JVM options to be MPCONFIG enabled (milestone G) [#9999](https://github.com/IQSS/dataverse/issues/9999)
+  - Automate running of API test suite in containers (milestone G) [#9790](https://github.com/IQSS/dataverse/issues/9790)
 
-As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
+In addition, we've been working on many issues as they come up. The best way to see what's new (apart from joining meetings) is to check the "new features" list above, which serves as a changelog.
+
+Since we aren't strictly following the roadmap above, it's best to consult the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse project board to see what we're working on. Attending working group meetings (or checking notes or recordings) will give you a sense as well!
 
 ## Links
 
