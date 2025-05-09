@@ -4,10 +4,7 @@ title: Home
 
 ## Motivation and goals
 
-The Containerization Working Group aims to support running the [Dataverse software](https://dataverse.org) within [containers](https://kubernetes.io/docs/concepts/containers/).
-Containers may be used in very different contexts such as development, testing, staging and production.
-They also are a way to run the Dataverse software and its dependencies and integrations in enclosed units on different platforms of operating systems and/or hardware.
-This working group aims to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
+The Dataverse Containerization Working Group helps people run [Dataverse](https://dataverse.org) in [containers](https://kubernetes.io/docs/concepts/containers/) such as Docker. We aim to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
 ## Where are the images?
 
