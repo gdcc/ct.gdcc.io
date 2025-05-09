@@ -6,14 +6,16 @@ title: Home
 
 The Dataverse Containerization Working Group helps people run [Dataverse](https://dataverse.org) in [containers](https://kubernetes.io/docs/concepts/containers/) such as Docker. We aim to include many perspectives and use cases to make sure the Dataverse community's needs are covered.
 
-## Where are the images?
+## Where are the images? How do I get started?
 
 You can find the our images here:
 
 - Docker Hub: <https://hub.docker.com/u/gdcc>
 - GitHub Container Registry (GHCR): <https://github.com/orgs/gdcc/packages?ecosystem=container>
 
-That said, to actually make use of the images and understand how they are tagged, you are encouraged to read the [Container Guide](https://guides.dataverse.org/en/latest/container/). You can also [preview](https://preview.guides.gdcc.io/en/develop/container/) the guide for the next release.
+You can give the images a try by following the [quickstart](https://guides.dataverse.org/en/latest/container/running/demo.html) for running Dataverse in a demo or evaluation environment. Images are also used in development environments for both the [backend](https://guides.dataverse.org/en/latest/developers/dev-environment.html) and [frontend](https://github.com/IQSS/dataverse-frontend/blob/develop/DEVELOPER_GUIDE.md#running-the-project-locally). Feedback is welcome!
+
+For details about the images, please see the Dataverse [Container Guide](https://guides.dataverse.org/en/latest/container/). You can also [preview](https://preview.guides.gdcc.io/en/develop/container/) the guide for the next release.
 
 ## Working group meetings
 
