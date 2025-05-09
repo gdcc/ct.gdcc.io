@@ -134,7 +134,9 @@ We try to keep the meeting times below accurate but you can check the [meetings]
 - 2024-11-15 File previewers are available in the "demo or eval" environment: <https://github.com/IQSS/dataverse/pull/11025>
 - 2024-10-21 Docs on how to set up languages (English, French, etc.): <https://github.com/IQSS/dataverse/pull/10940>
 - 2024-09-30 [Dataverse 6.4](https://github.com/IQSS/dataverse/releases/tag/v6.4) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
+- 2024-09-20 Base images are now versioned: <https://github.com/IQSS/dataverse/pull/10827>
 - 2024-07-03 [Dataverse 6.3](https://github.com/IQSS/dataverse/releases/tag/v6.3) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
+- 2024-06-27: Upgrade to Payara 6.2024.6: <https://github.com/IQSS/dataverse/pull/10495>
 - 2024-04-02 [Dataverse 6.2](https://github.com/IQSS/dataverse/releases/tag/v6.2) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
 - 2024-03-38 Configuration of SMTP using MPCONFIG: <https://github.com/IQSS/dataverse/pull/9939>
 - 2024-02-08 A [tutorial](https://groups.google.com/g/dataverse-community/c/GmXMMJe3Mr0/m/gP_Z9odKAQAJ) has been written on running Dataverse in containers for demo or evaluation purposes.
