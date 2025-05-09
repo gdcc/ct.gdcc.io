@@ -181,14 +181,15 @@ We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB
 
 As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
 
-## References
+## Links
 
-Outputs:
-
-- [Dataverse Containerization](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit) Proposal/Roadmap
 - [Dataverse Container Guide](https://guides.dataverse.org/en/latest/container/index.html) ([pre-release preview](https://preview.guides.gdcc.io/en/develop/container/index.html))
+  - See especially the [quickstart](https://guides.dataverse.org/en/latest/container/running/demo.html)
+- [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column within Dataverse project board (used for tracking activity).
+- [2023 Dataverse Containerization Proposal/Roadmap](https://docs.google.com/document/d/14DHDB24Cp_kzpYqhHCKCtnzOw8_WuLOOONyqJHSsaYM/edit)
 
-Existing prior containerization efforts:
+## Prior containerization efforts
+
 - Dataverse on K8s: [gdcc/dataverse-kubernetes](https://github.com/gdcc/dataverse-kubernetes), [k8s-docs.gdcc.io](https://k8s-docs.gdcc.io)
    - Derived: [EOSC-synergy/dataverse-kubernetes](https://github.com/EOSC-synergy/dataverse-kubernetes/tree/5.12)
 - Archive in a Box: [IQSS/dataverse-docker](https://github.com/IQSS/dataverse-docker)
