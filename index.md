@@ -122,6 +122,12 @@ We try to keep the meeting times below accurate but you can check the [meetings]
 </div>
 </details>
 
+## Getting in touch
+
+If you can't make it to a working group meeting, no worries! Please join us in the [#containers](https://dataverse.zulipchat.com/#narrow/channel/375812-containers) channel in Zulip.
+
+[![](imgs/zulip.png){: height="30" }](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/)
+
 ## New features, bug fixes, and use cases 🎁
 
 - 2025-03-20 File previewers have better docs: <https://github.com/IQSS/dataverse/pull/11181>
@@ -174,14 +180,6 @@ We presented a roadmap as a [proposal](https://docs.google.com/document/d/14DHDB
 - Milestone G: Run API tests in containers (40%)
 
 As we merge pull requests, we will update "new features" list above. We'll use the [Containerization](https://github.com/orgs/IQSS/projects/34/views/17) column of the Dataverse Global Backlog board to indicate specific issues or pull requests we plan to work on next.
-
-## Get in touch
-
-We love to hear feedback from you about our goals and outputs not just during meetings, but also using chat.
-
-[![](imgs/zulip.png){: height="30" }](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/)
-
-Please join us in [Zulip](https://dataverse.zulipchat.com/#narrow/stream/375812-containers/), linked from [chat.dataverse.org](https://chat.dataverse.org).
 
 ## References
 
