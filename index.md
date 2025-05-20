@@ -129,6 +129,7 @@ If you can't make it to a working group meeting, no worries! Please join us in t
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2025-05-20 `dataverse.files.hide-schema-dot-org-download-urls` configurable via MPCONFIG: <https://github.com/IQSS/dataverse/pull/11482>
 - 2025-03-20 File previewers have better docs: <https://github.com/IQSS/dataverse/pull/11181>
 - 2025-03-20 Docs on loading metadata blocks and adjusting Solr to use them: <https://github.com/IQSS/dataverse/pull/11204>
 - 2025-03-18 [Dataverse 6.6](https://github.com/IQSS/dataverse/releases/tag/v6.6) was released and our [images on Docker Hub](https://hub.docker.com/u/gdcc) have been updated (alpha tag).
