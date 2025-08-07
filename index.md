@@ -25,6 +25,7 @@ The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJI
 
 We try to keep the meeting times below accurate but you can check the [meetings](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/meetings) topic in Zulip for reminders and any last minute changes.
 
+- [2025-09-04, 09:30 Eastern](https://time.is/compare/0930_04_Sep_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1Ggf1J-juzuYVAUtHPzSc6NEQsIK6Ql4RglA-i69DfmU/edit?usp=sharing)
 - [2025-08-07, 09:30 Eastern](https://time.is/compare/0930_07_Aug_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1VI1DU78gTi9sWi5Qo8XQnz29scSB1IJbMdVnCOfAawI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/tSdz-EACF0A0_vov7LMBbkiwHLXyBUBKxJ5w9YR2wLyRKJsplFnHxEfpq5X3E-ZX.oQRVjVUWNgJXstpD)
 - [2025-07-03, 09:30 Eastern](https://time.is/compare/0930_03_July_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/167VDcRJCJoUpJoVoRUREWLrDQeQWk_JFr9RKko3sLwo/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/grpiyydNlX77uNLtfsi9u5VrMmiGbvzX6ZdYYpbyM0XQxOKRF3G0KQEAmOD_2N4a.9nfFKBg6TaV8O407)
 - [2025-06-10, 14:00 Eastern](https://time.is/compare/0930_10_June_2025_in_Chapel_Hill) meeting [notes](https://docs.google.com/document/d/1XZymsjj7EcFagjflYvv7Tn3RCGqGipe3XXOw6to4W2c/edit?usp=sharing), in-person at the [2025 Dataverse Community Meeting](https://dcm2025.hsites.harvard.edu) in Chapel Hill, North Carolina, USA!
