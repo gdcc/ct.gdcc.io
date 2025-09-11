@@ -133,6 +133,7 @@ If you can't make it to a working group meeting, no worries! Please join us in t
 
 ## New features, bug fixes, and use cases 🎁
 
+- 2025-08-29 personOrOrg settings have been migrated to MPConfig: <https://github.com/IQSS/dataverse/pull/11485>
 - 2025-06-04 Fix password script in base container image: <https://github.com/IQSS/dataverse/pull/11547>
 - 2025-05-20 `dataverse.files.hide-schema-dot-org-download-urls` configurable via MPCONFIG: <https://github.com/IQSS/dataverse/pull/11482>
 - 2025-03-20 File previewers have better docs: <https://github.com/IQSS/dataverse/pull/11181>
