@@ -25,7 +25,7 @@ The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJI
 
 We try to keep the meeting times below accurate but you can check the [meetings](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/meetings) topic in Zulip for reminders and any last minute changes.
 
-- [2025-10-02, 09:30 Eastern](https://time.is/compare/0930_02_Oct_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1BoGYzNr9F1jSU9c3DOQRFZZwGY_hwErgoQMjCpIwz74/edit?usp=sharing)
+- [2025-11-04, 09:30 Eastern](https://time.is/compare/0930_04_Nov_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1BoGYzNr9F1jSU9c3DOQRFZZwGY_hwErgoQMjCpIwz74/edit?usp=sharing)
 - [2025-09-11, 09:30 Eastern](https://time.is/compare/0930_11_Sep_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1Ggf1J-juzuYVAUtHPzSc6NEQsIK6Ql4RglA-i69DfmU/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/JOX0tNKM-CCQ6VBqdABchxZcmH9JZEhZWkykJSKJqPvTjYhsn39ZF_r1ppf18-LS.ZXxP3i3mzSD19sjt)
 - [2025-08-07, 09:30 Eastern](https://time.is/compare/0930_07_Aug_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1VI1DU78gTi9sWi5Qo8XQnz29scSB1IJbMdVnCOfAawI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/tSdz-EACF0A0_vov7LMBbkiwHLXyBUBKxJ5w9YR2wLyRKJsplFnHxEfpq5X3E-ZX.oQRVjVUWNgJXstpD)
 - [2025-07-03, 09:30 Eastern](https://time.is/compare/0930_03_July_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/167VDcRJCJoUpJoVoRUREWLrDQeQWk_JFr9RKko3sLwo/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/grpiyydNlX77uNLtfsi9u5VrMmiGbvzX6ZdYYpbyM0XQxOKRF3G0KQEAmOD_2N4a.9nfFKBg6TaV8O407)
