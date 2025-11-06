@@ -28,17 +28,17 @@ We try to keep the meeting times below accurate but you can check the [meetings]
 - [2025-12-04, 09:30 Eastern](https://time.is/compare/0930_04_Dec_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1qXRj6JBsgV21mw5CkL_CMpa3gqbPvpO14p8CSwko2Sk/edit?usp=sharing)
 - [2025-11-06, 09:30 Eastern](https://time.is/compare/0930_06_Nov_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1BoGYzNr9F1jSU9c3DOQRFZZwGY_hwErgoQMjCpIwz74/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/qw5BTHsX132xEYBue7rKrPx6n7_3oL1J5AoOz40y9STlp_z_cuHM2qbTcOtWuaDG.34EEw9prY2HxDp9c)
 - [2025-09-11, 09:30 Eastern](https://time.is/compare/0930_11_Sep_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1Ggf1J-juzuYVAUtHPzSc6NEQsIK6Ql4RglA-i69DfmU/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/JOX0tNKM-CCQ6VBqdABchxZcmH9JZEhZWkykJSKJqPvTjYhsn39ZF_r1ppf18-LS.ZXxP3i3mzSD19sjt)
+
+<details>
+  <summary>Older meetings</summary>
+  <div markdown=1>
+
 - [2025-08-07, 09:30 Eastern](https://time.is/compare/0930_07_Aug_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1VI1DU78gTi9sWi5Qo8XQnz29scSB1IJbMdVnCOfAawI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/tSdz-EACF0A0_vov7LMBbkiwHLXyBUBKxJ5w9YR2wLyRKJsplFnHxEfpq5X3E-ZX.oQRVjVUWNgJXstpD)
 - [2025-07-03, 09:30 Eastern](https://time.is/compare/0930_03_July_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/167VDcRJCJoUpJoVoRUREWLrDQeQWk_JFr9RKko3sLwo/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/grpiyydNlX77uNLtfsi9u5VrMmiGbvzX6ZdYYpbyM0XQxOKRF3G0KQEAmOD_2N4a.9nfFKBg6TaV8O407)
 - [2025-06-10, 14:00 Eastern](https://time.is/compare/0930_10_June_2025_in_Chapel_Hill) meeting [notes](https://docs.google.com/document/d/1XZymsjj7EcFagjflYvv7Tn3RCGqGipe3XXOw6to4W2c/edit?usp=sharing), in-person at the [2025 Dataverse Community Meeting](https://dcm2025.hsites.harvard.edu) in Chapel Hill, North Carolina, USA!
 - [2025-06-05, 09:30 Eastern](https://time.is/compare/0930_05_June_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1eXb7gfcJ8Y-Y7WFOolQKbVTGuKStTAV3WVfXC6xVdx0/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kAp61mwRkrs4okIfneFVemvXGPbwvDNoB0FU8KYQAY17wP55UYe8sbV5YBfe6OI.M2SkPii3GxHNu_qr)
 - [2025-05-08, 09:30 Eastern](https://time.is/compare/0930_08_May_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1-sq4fMJZ_f9sOQrhDdNF5FTJ5c212BBaUoF8foh4B20/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/d2xoUvd7VWY7fYG39zgXvLNP6bGj3_n6owTBCA-sbGy5oBgFDiekvkGRLJ337ZM.uza8DW5aWBcYhsbS)
 - [2025-04-03, 09:30 Eastern](https://time.is/compare/0930_04_Apr_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1eg_XzwSsSDRNj_T-Myc7D6xOwyXZOnIwQwrpAmGvrpE/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/4l5oA1ELzDwrDo2mj2ZUPUIhup0tb0mCxEcz23S_SEmOOpMEyj2uVNeFGnkxRbH1.Aqymbs34Mx0ogS-j)
-
-<details>
-  <summary>Older meetings</summary>
-  <div markdown=1>
-
 - [2025-03-06, 09:30 Eastern](https://time.is/compare/0930_06_Mar_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1D0wVno-7tZhmMrNDYNVvwgjtp4DR7p6JCp8yKuyzoJw/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/pE2FY-Su_JiQfgWX20SZZkhVVg4VXOCUKAhMkmBJyEnoU-KlxF5lHo66vxBoQrAc.d4OtRLin4BGYC0NH)
 - [2025-02-06, 09:30 Eastern](https://time.is/compare/0930_06_Feb_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1gNrx8AKjZxrPLIwFV-8ue9_XstPWxsU76pWRg67KVbc/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/6Hr4lsFVKtuddTgwwK_03fLrSGz-vLGuF8lDAN1gWvTMVBwF-LCxJqGcJ-kFHyB7.890LtQasKQMw2Myr)
 - [2025-01-30, 09:30 Eastern](https://time.is/compare/0930_30_Jan_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1iNbb6SVCBKOQGmDaRmTyX2hwInKQGWJxHpDpV9MP2rI/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/eG-j-ptXsmTsY3LKucSNBXIMu_zK9zFY5U14z_C-chl9fDEdudElIV1Id50D11Hg.CJRt8PV7mFgZwv_L)
