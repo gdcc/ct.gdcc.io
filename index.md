@@ -19,7 +19,7 @@ For details about the images, please see the Dataverse [Container Guide](https:/
 
 ## Working group meetings
 
-All are welcome to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET), but not on New Years Day, 2026! (Please see below.)
+All are welcome to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET).
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
