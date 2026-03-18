@@ -25,7 +25,7 @@ The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJI
 
 We try to keep the meeting times below accurate but you can check the [meetings](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/meetings) topic in Zulip for reminders and any last minute changes.
 
-- [2026-03-17, 09:30 Eastern](https://time.is/compare/0930_17_Mar_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1mCgLpIP00BkDr1VFtD-2OgDSmi3We2BGpgiKYrZbRpM/edit?usp=sharing) - 2 WEEKS LATER THAN USUAL DUE TO CONFLICTS
+- [2026-03-19, 09:30 Eastern](https://time.is/compare/0930_19_Mar_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1mCgLpIP00BkDr1VFtD-2OgDSmi3We2BGpgiKYrZbRpM/edit?usp=sharing) - 2 WEEKS LATER THAN USUAL DUE TO CONFLICTS
 - [2026-02-05, 09:30 Eastern](https://time.is/compare/0930_05_Feb_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1lIb4XWJ6_2w4m_70CaHDrkljirx_TDEwViuttonJ21M/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/acfYjQwWp7_bB35oGZkmnjAcJbKOY17YkljCcYVzJ5-o14kdHWgLL77FxQMKqDwk.4rUou19HG67C5nyF)
 - [2026-01-15, 09:30 Eastern](https://time.is/compare/0930_15_Jan_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1zYk_bLV9qB8YKQmJXBcsDz_OrSLY3Cx8cPGxJ3oFRQY/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/kLPnMLpDfyBhh0EJEvfhpZsZgjBHPHk5R7imlPRF7tYaNyTr0DOh8vHROnFO45R-.Vy2heZDG1ZjCS9Ky)
 - [2025-12-04, 09:30 Eastern](https://time.is/compare/0930_04_Dec_2025_in_Boston) meeting [notes](https://docs.google.com/document/d/1qXRj6JBsgV21mw5CkL_CMpa3gqbPvpO14p8CSwko2Sk/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/Cn0IsSWH0_lrJ1TqpnHW8qhyeDcQxWNV59WnZzbAQIpjtSXNttdDG3myOug7-jYw.mzZ6LQAn53kTddQH)
