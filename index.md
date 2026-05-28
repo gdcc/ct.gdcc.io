@@ -19,10 +19,11 @@ For details about the images, please see the Dataverse [Container Guide](https:/
 
 ## Working group meetings
 
-All are welcome to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET), except when we're in Barcelona (see below)! 😄
+All are welcome to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET) unless otherwise noted below.
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
+- [2026-06-11, 09:30 Eastern](https://time.is/compare/0930_11_Jun_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1TYsovyRWdygGglZ9pOqWMhNnmPl_CRqi0OzMIwvdyGQ/edit?usp=sharing) (a week later than usual)
 - [2026-05-12, 10:00 CET](https://time.is/compare/0000_12_May_2026_in_Barcelona) meeting [notes](https://docs.google.com/document/d/1jrGp846XLduA7rDxc4EnqbPlVf85gRhgqYrQDMr9Ut4/edit?usp=sharing), in-person at the [Barcelona Super Computing Center](https://www.bsc.es/) (room 0-3-13) at the [2026 Dataverse Community Meeting](https://dcm2026.com/). See [this Zulip topic](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/Containerization.20wg.20at.20DCM.202026.20in.20Barcelona/with/585984634) for the latest updates. Be sure to read the PDF linked from [here](https://dataverse.zulipchat.com/#narrow/channel/375812-containers/topic/Containerization.20wg.20at.20DCM.202026.20in.20Barcelona/near/594007573) for details about getting into the room! meeting [notes](https://docs.google.com/document/d/1jrGp846XLduA7rDxc4EnqbPlVf85gRhgqYrQDMr9Ut4/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/X2ruvZUeLlaDnb_xhIwgDQ56H2q6zQtOYhom9nmCDFVhgwv0cU1uMBUp5S64slUD.wkYlhRmrCuNOzVD7)
 - [2026-04-16, 09:30 Eastern](https://time.is/compare/0930_16_Apr_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1QhZD-XwSFcO2Rr5hNalQsFRatcpKVie1si1qamFrZ28/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/BG_j-UcugZ_LyLBSr-bZ2yiEzy6Ou1bS1va6optfnk4FnAQfu5O2uWpgSNc6hQKA.6LkkosjMwzJW3Mln)
 - [2026-03-19, 09:30 Eastern](https://time.is/compare/0930_19_Mar_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1mCgLpIP00BkDr1VFtD-2OgDSmi3We2BGpgiKYrZbRpM/edit?usp=sharing), [recording](https://harvard.zoom.us/rec/share/s2JsUGGS3WM7HIk0cBjpDyss-lq_hRNaigWOrM0TwU0ciz1FZrwBlOhuiaJNrc4-.NTAixTtC0T-UWIvC)
