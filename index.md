@@ -17,6 +17,10 @@ You can give the images a try by following the [quickstart](https://guides.datav
 
 For details about the images, please see the Dataverse [Container Guide](https://guides.dataverse.org/en/latest/container/). You can also [preview](https://preview.guides.gdcc.io/en/develop/container/) the guide for the next release.
 
+## Members
+
+Please see <https://people.dataverse.org/?workingGroup=containerization> for the list of members. To add or remove yourself from the list, please open an issue at <https://github.com/gdcc/people.dataverse.org/issues>.
+
 ## Working group meetings
 
 All are welcome to join our meetings! We meet on the first Thursday of the month at 9:30am Eastern Time (ET) unless otherwise noted below.
