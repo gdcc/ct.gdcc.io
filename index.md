@@ -27,7 +27,7 @@ All are welcome to join our meetings! We meet on the first Thursday of the month
 
 The Zoom link is <https://harvard.zoom.us/j/91061519853?pwd=U1lQR1ExMlo3Ty9XUVJIM2ZPNW1mdz09>
 
-- [2026-10-01, 09:30 Eastern](https://time.is/compare/0930_01_Oct_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1-aj9B0Ra0sE1owCgI-mgItmCDs9j0P0aDGL3GzWjxdw/edit?usp=sharing)
+- [2026-10-01, 09:30 Eastern](https://time.is/compare/0930_01_Oct_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1-aj9B0Ra0sE1owCgI-mgItmCDs9j0P0aDGL3GzWjxdw/edit?usp=sharing), [recording](https://drive.google.com/file/d/13zEC-lzhOWD5fPxXvKoJNlaq7l0MVkI2/view?usp=sharing)
 - 2026-09-03 skipping due to low attendance and 6.12 release
 - [2026-08-06, 09:30 Eastern](https://time.is/compare/0930_06_Aug_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1qjU6e8J4MKPXMSkEeruy2kLSIEbw0ZiTUNZki8WkqIM/edit?usp=sharing), [recording](https://drive.google.com/file/d/15THUMYdYppIjqTD9HDGpjiDi8lfql7MI/view?usp=sharing)
 - [2026-07-02, 09:30 Eastern](https://time.is/compare/0930_02_Jul_2026_in_Boston) meeting [notes](https://docs.google.com/document/d/1hWKp9mk3KLx0c54HUCsJqHssV1ol66F-samectJ-6Ss/edit?usp=sharing), [recording](https://drive.google.com/file/d/1ivT3EgwkmhEsZDLwPhGBBA9hWrIIAmw7/view?usp=drive_link)
